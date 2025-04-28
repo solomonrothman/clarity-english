@@ -1,10 +1,6 @@
 # clarity-english
 A simplified, logical, and consistent subset of English designed for unambiguous communication with humans and AI with a parser implementation in Python and PHP
 
-Okay, here's a draft README.md file for the Clarity English project, along with a one-sentence repository description:
-One-Sentence Repository Description:
-A simplified, logical, and consistent subset of English designed for unambiguous communication with humans and AI, with a parser implementation in Python and PHP.
-Draft README.md:
 # Clarity English
 
 ## Introduction

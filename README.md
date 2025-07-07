@@ -1,116 +1,106 @@
-# clarity-english
-A simplified, logical, and consistent subset of English designed for unambiguous communication with humans and AI with a parser implementation in Python and PHP
-
 # Clarity English
+A simplified, logical, and consistent subset of English designed for unambiguous communication with humans and AI, with a parser implementation in Python.
 
 ## Introduction
+Clarity English is a novel, syntactically simple, and consistent subset of English. It is designed to eliminate ambiguity and redundancy, making it ideal for clear communication between humans, as well as between humans and AI systems. This repository contains the specification for Clarity English, a growing lexicon in a unified JSON file, and a parser implementation in Python.
 
-Clarity English is a novel, syntactically perfect, and consistent subset of English. It is designed to eliminate ambiguity and redundancy, making it ideal for clear communication between humans, as well as between humans and AI systems. This repository contains the specification for Clarity English, a growing lexicon, and parser implementations in Python and PHP.
+The Book and Project Context
+This open-source project is the official implementation of the language detailed in the book "Clarity English: A Language for a Clearer Future." The book provides the complete grammar, style guide, hierarchical dictionary, and the full philosophy behind the language.
+
+To fully understand the "why" behind Clarity English, you can read the introductory articles on Medium:
+
+Article 1: [It’s Time to Fix Our Language. My New Book Shows How.](https://medium.com/@sol-roth/its-time-to-fix-our-language-my-new-book-shows-how-2c8804b5c641)
+
+Article 2: [Learn the Basics of a New Language in 10 Minutes. Seriously.](https://medium.com/@sol-roth/learn-the-basics-of-a-new-language-in-10-minutes-seriously-06bc10d7983c)
+
+The book is available on Amazon and is free on Kindle Unlimited:
+
+Get the Book: [Clarity English: A Language for a Clearer Future](https://www.amazon.com/dp/B0FGXHBTTB/)
 
 ## Goals of Clarity English
+* Unambiguous Communication: Every sentence has a single, clear interpretation.
 
-*   **Unambiguous Communication:**  Every sentence has a single, clear interpretation.
-*   **Consistency:** No exceptions to grammatical rules.
-*   **Learnability:** Easy to learn due to its simplified and regular structure.
-*   **Machine Parsability:** Designed to be easily processed by computers, facilitating AI interaction and code generation.
-*   **Reduced Redundancy:** Eliminate synonyms and unnecessary words, using modifiers for intensity.
-*   **Logical Structure:** Follows a consistent subject-verb-object order and uses hierarchical concept chaining to represent complex ideas.
+* Consistency: No exceptions to grammatical rules.
+
+* Learnability: Easy to learn due to its simplified and regular structure.
+
+* Machine Parsability: Designed to be easily processed by computers, facilitating AI interaction and clear instructions.
+
+* Reduced Redundancy: Eliminates synonyms, relying on a core vocabulary expanded by logical modifiers.
+
+* Logical Structure: Follows a consistent Subject-Verb-Object order and uses a hierarchical lexicon to define word relationships.
 
 ## Key Features
 
-*   **Regularized Grammar:**
-    *   All verbs follow consistent tense formation (e.g., "go-d" for past tense).
-    *   Nouns have regular plurals (e.g., "cat-s").
-    *   No grammatical cases (nominative, accusative, etc.).
-*   **Modifier System:**
-    *   Hyphens connect modifiers to clarify relationships (e.g., "big-red ball").
-    *   Percentile modifiers indicate intensity (e.g., "hot (150%)" for "very hot").
-*   **Hierarchical Concept Chaining:**
-    *   Concepts are organized into categories and subcategories to show relationships (e.g., `Thing->Craft->Land->Vehicle->Car`).
-*   **JSON Lexicon:**
-    *   A growing lexicon of verbs, nouns, adjectives, adverbs, prepositions, and conjunctions stored in easy-to-manage JSON files.
+* **Regularized Grammar:**
+    * All verbs follow consistent tense formation (e.g., `walk-d` for past, `walk-will` for future).
+    * Nouns have regular plurals (e.g., `cat-s`).
+    * Articles (`a`, `an`, `the`) and "be" verbs (`is`, `am`, `are`) are eliminated for directness.
+* **Simple Modifier System:**
+    * Modifiers (adjectives/adverbs) always precede the word they describe (e.g., `big red ball`).
+* **Hierarchical Lexicon:**
+    * The vocabulary is organized in a logical tree to show relationships and provide semantic context (e.g., `Thing -> Life -> Animal -> Mammal -> Dog`).
+* **Unified JSON Lexicon:**
+    * The entire core vocabulary is stored in a single, easy-to-manage `lexicon.json` file, which serves as the "single source of truth" for the parser.
 
 ## Repository Structure
-
-
 clarity-english/
-├── parser/             # Parser implementations
-│   ├── clarity_parser.py    # Python parser
-│   └── clarity_parser.php   # PHP parser
-├── lexicon/            # Lexicon data in JSON format
-│   ├── verbs.json
-│   ├── nouns.json
-│   ├── adjectives.json
-│   ├── adverbs.json
-│   ├── conjunctions.json
-│   └── prepositions.json
-└── README.md           # This file
+├── clarity_parser.py     # The primary Python parser
+├── lexicon.json          # The unified, hierarchical dictionary
+├── README.md             # This file
+└── LICENSE               # The open-source license for the project
 
-## How to Use
+## How to Use the Parser
 
-### 1. Lexicon
+The `clarity_parser.py` script is designed to be straightforward to use.
 
-The lexicon is located in the `/lexicon` directory. Each JSON file contains a list of words with their associated grammatical information, definitions, and sometimes hierarchical relationships.
+#### Prerequisites
 
-*   You can use these files directly in your applications to access the Clarity English vocabulary.
-*   The lexicon is constantly being expanded. Contributions are welcome!
+* Python 3.x
 
-### 2. Parser
+#### Running the Script
 
-The `/parser` directory contains implementations of the Clarity English parser in Python and PHP.
+Navigate to the root directory of the project and execute the script from your terminal:
 
-#### Python:
+```sh
+python clarity_parser.py
 
-1.  **Prerequisites:** Python 3.x
-2.  **Run:** Navigate to the `/parser` directory and execute the script:
+The script contains a set of test sentences at the bottom. It will parse each sentence and print the identified Subject, Verb, and Object structure, including any modifiers.
 
-    ```bash
-    python clarity_parser.py
-    ```
-    The script will parse a set of example sentences (which you can modify) and print the parsed output.
-#### PHP:
+Example Usage in Your Own Project:
+Python
 
-1.  **Prerequisites:** PHP 7.x or higher
-2.  **Run:** Navigate to the `/parser` directory and execute the script:
+from clarity_parser import ClarityParser
 
-    ```bash
-    php clarity_parser.php
-    ```
+# Initialize the parser (it will load lexicon.json automatically)
+parser = ClarityParser()
 
-    The script will parse a set of example sentences (which you can modify) and print the parsed output.
+sentence = "Big brown dog chase-d small cat."
+parsed_structure = parser.parse(sentence)
 
-**Example Usage (Python):**
+# Print the full parsed structure
+print(parsed_structure)
+```
 
-```python
-from clarity_parser import
-parse_clarity_english
+## Contributing
+Contributions to Clarity English are welcome! This is an open-source project, and community involvement is key to its growth and success. Here are some ways you can contribute:
 
-sentence = "The quickly-spinning red-blue top be-d a toy."
-parsed_sentence = parse_clarity_english(sentence)
+Expand the Lexicon: Add new words and refine existing entries in the lexicon.json file.
 
-print(f"Sentence: {sentence}")
-print(f"Parsed: {parsed_sentence}")
+Improve the Parser: Enhance the parsing logic, add more advanced error handling, and improve efficiency.
 
-Contributing
-Contributions to Clarity English are welcome! Here are some ways you can contribute:
- * Expand the Lexicon: Add new words and refine existing entries in the JSON lexicon files.
- * Improve the Parser: Enhance the parsing logic, add error handling, and improve efficiency.
- * Develop Test Cases: Create a comprehensive suite of test sentences to ensure the parser's accuracy.
- * Implement in Other Languages: Create parsers for other programming languages.
- * Develop Applications: Build applications that utilize Clarity English for various purposes (e.g., AI interaction, code generation, education).
-To contribute, please fork the repository, make your changes, and submit a pull request.
+Develop Test Cases: Create a comprehensive suite of test sentences to ensure the parser's accuracy against all rules.
+
+Implement in Other Languages: Create parsers for other programming languages (e.g., JavaScript, Go, Rust).
+
+Develop Applications: Build applications that utilize Clarity English for various purposes (e.g., AI interaction, educational tools, documentation generators).
+
+To contribute, please fork the repository, make your changes in a separate branch, and submit a pull request with a clear description of your improvements.
+
 License
-This project is licensed under the MIT License (you can choose a different license if you prefer).
+This project is licensed under the MIT License. You are free to use, modify, and distribute it for any purpose, including commercial projects.
+
 Contact
-[Your Name or Team Name] - [Your Email or Contact Information]
-[Link to your website or project page (if applicable)]
+Sol Roth - solroth+clarity@solrothmedia.com
 
-**Remember to:**
-
-*   Replace the placeholder information (name, email, license, etc.) with your actual information.
-*   Consider adding a `LICENSE` file to your repository with the full text of your chosen license.
-*   As the project evolves, keep the README updated with any changes to the structure, usage, or contribution guidelines.
-
-I hope this comprehensive README is helpful! Let me know when you've created the repository, and we can start adding the code and lexicon.
-
- * https://github.com/nickorzha/road-lane-detection
+ www.SolRoth.com

@@ -96,7 +96,7 @@ class ClarityParser:
             elif word.endswith('-s'):
                 base_word = word[:-2]
                 is_plural = True
-            
+
             # Look up the base word in the lexicon
             entry = self._get_lexicon_entry(base_word)
 
@@ -118,7 +118,7 @@ class ClarityParser:
         i = 0
         while i < len(tokens):
             token = tokens[i]
-            
+
             # Collect preceding modifiers (adjectives, adverbs)
             modifiers = []
             j = i - 1
@@ -131,10 +131,10 @@ class ClarityParser:
             # Attach collected modifiers to the current token if it's a noun or verb
             if token.type in ['noun', 'verb']:
                 token.modifiers = modifiers
-            
+
             modified_tokens.append(token)
             i += 1
-            
+
         # Filter out the modifiers that have been attached to other tokens
         final_tokens = [token for token in modified_tokens if token.type not in ['adjective', 'adverb']]
 
@@ -164,7 +164,7 @@ class ClarityParser:
             verb = grouped_tokens[0]
             if len(grouped_tokens) > 1:
                 obj = grouped_tokens[1]
-        
+
         # Handle declarative sentences (Subject-Verb-Object)
         else:
             # Find the first noun as subject
@@ -244,7 +244,7 @@ if __name__ == "__main__":
             print(f"  Subject: {parsed_structure['subject'].value}")
             if parsed_structure['subject'].modifiers:
                 print(f"    - Modifiers: {[mod.value for mod in parsed_structure['subject'].modifiers]}")
-        
+
         if parsed_structure.get("verb"):
             print(f"  Verb: {parsed_structure['verb'].value} (Tense: {parsed_structure['verb'].tense})")
             if parsed_structure['verb'].modifiers:
@@ -254,19 +254,17 @@ if __name__ == "__main__":
             print(f"  Object: {parsed_structure['object'].value}")
             if parsed_structure['object'].modifiers:
                 print(f"    - Modifiers: {[mod.value for mod in parsed_structure['object'].modifiers]}")
-        
+
         print("-" * 20)
 
-```
-
-### Key Improvements and Changes:
-
-1.  **Language Change (PHP to Python):** The entire script has been rewritten in Python, which is better suited for this type of text processing and more common in the open-source NLP community.
-2.  **Unified Lexicon:** The parser now uses a single, unified `lexicon.json` file, as we designed. This is more efficient and aligns with the core principle of a hierarchical dictionary. The old logic of loading separate files for each part of speech has been removed.
-3.  **Lexicon-Driven Tokenizer:** The new `_tokenize` method is much more robust. Instead of relying on complex `if/else` logic to guess a word's type, it now looks up the "base word" (e.g., "walk" from "walk-d") in the lexicon. The lexicon is the single source of truth for a word's part of speech.
-4.  **Proper Suffix Handling:** The tokenizer correctly identifies Clarity English suffixes (`-d`, `-ed`, `-s`, `-ng`, `-will`) to determine tense and plurality, then works with the base word for lexicon lookups.
-5.  **Object-Oriented Design:** The logic is now encapsulated in a `ClarityParser` class, which is better software design than using loose functions. This makes the code cleaner, more reusable, and easier to maintain.
-6.  **Improved Modifier Handling:** The new `_group_modifiers` function correctly implements the Clarity English rule that modifiers (adjectives/adverbs) always precede the word they describe. It groups them together before the main parsing happens.
-7.  **Cleaner Parsing Logic:** The main `parse` method is now more streamlined. It handles imperative sentences (like "Go now.") and declarative SVO sentences. The logic for the "implied be" verb is also more robust.
-8.  **Comprehensive Comments:** The code is thoroughly commented to explain each part of the process, making it ideal for an open-source release where others will need to understand and contribute to it.
-9.  **Dummy Lexicon for Testing:** The script now includes a small `if __name__ == "__main__":` block that will automatically create a `lexicon.json` file if one doesn't exist. This ensures that anyone can download and run the script immediately to see it work without needing the full 5,000-word lexicon file.
+# Key Improvements and Changes:
+#
+# 1. Language Change (PHP to Python): The entire script has been rewritten in Python, which is better suited for this type of text processing and more common in the open-source NLP community.
+# 2. Unified Lexicon: The parser now uses a single, unified lexicon.json file, as we designed. This is more efficient and aligns with the core principle of a hierarchical dictionary. The old logic of loading separate files for each part of speech has been removed.
+# 3. Lexicon-Driven Tokenizer: The new _tokenize method is much more robust. Instead of relying on complex if/else logic to guess a word's type, it now looks up the "base word" (e.g., "walk" from "walk-d") in the lexicon. The lexicon is the single source of truth for a word's part of speech.
+# 4. Proper Suffix Handling: The tokenizer correctly identifies Clarity English suffixes (-d, -ed, -s, -ng, -will) to determine tense and plurality, then works with the base word for lexicon lookups.
+# 5. Object-Oriented Design: The logic is now encapsulated in a ClarityParser class, which is better software design than using loose functions. This makes the code cleaner, more reusable, and easier to maintain.
+# 6. Improved Modifier Handling: The new _group_modifiers function correctly implements the Clarity English rule that modifiers (adjectives/adverbs) always precede the word they describe. It groups them together before the main parsing happens.
+# 7. Cleaner Parsing Logic: The main parse method is now more streamlined. It handles imperative sentences (like "Go now.") and declarative SVO sentences. The logic for the "implied be" verb is also more robust.
+# 8. Comprehensive Comments: The code is thoroughly commented to explain each part of the process, making it ideal for an open-source release where others will need to understand and contribute to it.
+# 9. Dummy Lexicon for Testing: The script now includes a small if __name__ == "__main__": block that will automatically create a lexicon.json file if one doesn't exist. This ensures that anyone can download and run the script immediately to see it work without needing the full 5,000-word lexicon file.

@@ -1,0 +1,76 @@
+{
+  "Thing": {
+    "definition": "All that you can touch, see.",
+    "level": 1,
+    "is_a": null,
+    "children": null
+  },
+  "Material": {
+    "definition": "What things are made from.",
+    "level": 2,
+    "is_a": null,
+    "children": null
+  },
+  "Cloth": {
+    "definition": "Make from plant, animal. Use for clothes, other thing.",
+    "level": 3,
+    "is_a": ["Material"],
+    "children": null
+  },
+  "Cotton": {
+    "part_of_speech": "noun",
+    "definition": "Soft white from plant.",
+    "example": "Cotton shirt.",
+    "level": 4,
+    "is_a": ["Cloth"],
+    "children": null
+  },
+  "Fabric": {
+    "part_of_speech": "noun",
+    "definition": "Cloth.",
+    "example": "Soft fabric.",
+    "level": 4,
+    "is_a": ["Cloth"],
+    "children": null
+  },
+  "Fiber/Fibre": {
+    "part_of_speech": "noun",
+    "definition": "Thin thread.",
+    "example": "Strong fiber.",
+    "level": 4,
+    "is_a": ["Cloth"],
+    "children": null
+  },
+  "Linen": {
+    "part_of_speech": "noun",
+    "definition": "Cloth make from flax plant.",
+    "example": "Linen shirt.",
+    "level": 4,
+    "is_a": ["Cloth"],
+    "children": null
+  },
+  "Nylon": {
+    "part_of_speech": "noun",
+    "definition": "Strong cloth make by human.",
+    "example": "Nylon rope.",
+    "level": 4,
+    "is_a": ["Cloth"],
+    "children": null
+  },
+  "Polyester": {
+    "part_of_speech": "noun",
+    "definition": "Cloth make by human, chemical.",
+    "example": "Polyester jacket.",
+    "level": 4,
+    "is_a": ["Cloth"],
+    "children": null
+  },
+  "Silk": {
+    "part_of_speech": "noun",
+    "definition": "Soft, shine cloth from insect.",
+    "example": "Silk dress.",
+    "level": 4,
+    "is_a": ["Cloth"],
+    "children": null
+  }
+}

@@ -1,298 +1,298 @@
-const lexicon = {
-  'Belief': {
-    definition: 'An acceptance that a statement is true or that something exists.',
-    level: 2,
-    is_a: ['Concept'],
-    children:
+{
+  "Belief": {
+    "definition": "An acceptance that a statement is true or that something exists.",
+    "level": 2,
+    "is_a": ["Concept"],
+    "children": null
   },
-  'Belief-concept': {
-    part_of_speech: 'noun',
-    definition: 'An acceptance that a statement is true or that something exists.',
-    example: 'A strong belief.',
-    level: 3,
-    is_a:,
-    children:
+  "Belief-concept": {
+    "part_of_speech": "noun",
+    "definition": "An acceptance that a statement is true or that something exists.",
+    "example": "A strong belief.",
+    "level": 3,
+    "is_a": ["Belief"],
+    "children": null
   },
-  'Conviction-belief': {
-    part_of_speech: 'noun',
-    definition: 'A firmly held belief or opinion.',
-    example: 'Speak with conviction.',
-    level: 3,
-    is_a:,
-    children:
+  "Conviction-belief": {
+    "part_of_speech": "noun",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Speak with conviction.",
+    "level": 3,
+    "is_a": ["Belief"],
+    "children": null
   },
-  'Doubt-concept': {
-    part_of_speech: 'noun',
-    definition: 'A feeling of uncertainty or lack of conviction.',
-    example: 'A feeling of doubt.',
-    level: 3,
-    is_a:,
-    children:
+  "Doubt-concept": {
+    "part_of_speech": "noun",
+    "definition": "A feeling of uncertainty or lack of conviction.",
+    "example": "A feeling of doubt.",
+    "level": 3,
+    "is_a": ["Belief"],
+    "children": null
   },
-  'Faith': {
-    part_of_speech: 'noun',
-    definition: 'Complete trust or confidence in someone or something.',
-    example: 'Have faith in your friend-s.',
-    level: 3,
-    is_a:,
-    children:
+  "Faith": {
+    "part_of_speech": "noun",
+    "definition": "Complete trust or confidence in someone or something.",
+    "example": "Have faith in your friend-s.",
+    "level": 3,
+    "is_a": ["Belief"],
+    "children": null
   },
-  'Opinion': {
-    part_of_speech: 'noun',
-    definition: 'A view or judgment formed about something, not necessarily based on fact or knowledge.',
-    example: 'In my opinion.',
-    level: 3,
-    is_a:,
-    children:
+  "Opinion": {
+    "part_of_speech": "noun",
+    "definition": "A view or judgment formed about something, not necessarily based on fact or knowledge.",
+    "example": "In my opinion.",
+    "level": 3,
+    "is_a": ["Belief"],
+    "children": null
   },
-  'Suspicion': {
-    part_of_speech: 'noun',
-    definition: 'A feeling or thought that something is possible, likely, or true.',
-    example: 'A suspicion of guilt.',
-    level: 3,
-    is_a:,
-    children:
+  "Suspicion": {
+    "part_of_speech": "noun",
+    "definition": "A feeling or thought that something is possible, likely, or true.",
+    "example": "A suspicion of guilt.",
+    "level": 3,
+    "is_a": ["Belief"],
+    "children": null
   },
-  'Trust-concept': {
-    part_of_speech: 'noun',
-    definition: 'Firm belief in the reliability, truth, ability, or strength of someone or something.',
-    example: 'A matter of trust.',
-    level: 3,
-    is_a:,
-    children:
+  "Trust-concept": {
+    "part_of_speech": "noun",
+    "definition": "Firm belief in the reliability, truth, ability, or strength of someone or something.",
+    "example": "A matter of trust.",
+    "level": 3,
+    "is_a": ["Belief"],
+    "children": null
   },
-  'Agreement': {
-    definition: 'A negotiated and typically legally binding arrangement between parties.',
-    level: 2,
-    is_a: ['Concept'],
-    children:
+  "Agreement": {
+    "definition": "A negotiated and typically legally binding arrangement between parties.",
+    "level": 2,
+    "is_a": ["Concept"],
+    "children": null
   },
-  'Agreement-concept': {
-    part_of_speech: 'noun',
-    definition: 'Harmony or accordance in opinion or feeling.',
-    example: 'Reach an agreement.',
-    level: 3,
-    is_a: ['Agreement'],
-    children:
+  "Agreement-concept": {
+    "part_of_speech": "noun",
+    "definition": "Harmony or accordance in opinion or feeling.",
+    "example": "Reach an agreement.",
+    "level": 3,
+    "is_a": ["Agreement"],
+    "children": null
   },
-  'Bargain': {
-    part_of_speech: 'noun',
-    definition: 'An agreement between two or more people or groups as to what each will do for the other.',
-    example: 'Make a bargain.',
-    level: 3,
-    is_a: ['Agreement'],
-    children:
+  "Bargain": {
+    "part_of_speech": "noun",
+    "definition": "An agreement between two or more people or groups as to what each will do for the other.",
+    "example": "Make a bargain.",
+    "level": 3,
+    "is_a": ["Agreement"],
+    "children": null
   },
-  'Contract': {
-    part_of_speech: 'noun',
-    definition: 'A written or spoken agreement, especially one concerning employment, sales, or tenancy, that is intended to be enforceable by law.',
-    example: 'Sign a contract.',
-    level: 3,
-    is_a: ['Agreement', 'Law'],
-    children:
+  "Contract": {
+    "part_of_speech": "noun",
+    "definition": "A written or spoken agreement, especially one concerning employment, sales, or tenancy, that is intended to be enforceable by law.",
+    "example": "Sign a contract.",
+    "level": 3,
+    "is_a": ["Agreement", "Law"],
+    "children": null
   },
-  'Deal': {
-    part_of_speech: 'noun',
-    definition: 'An agreement entered into by two or more parties for their mutual benefit.',
-    example: 'Make a deal.',
-    level: 3,
-    is_a: ['Agreement'],
-    children:
+  "Deal": {
+    "part_of_speech": "noun",
+    "definition": "An agreement entered into by two or more parties for their mutual benefit.",
+    "example": "Make a deal.",
+    "level": 3,
+    "is_a": ["Agreement"],
+    "children": null
   },
-  'Pact': {
-    part_of_speech: 'noun',
-    definition: 'A formal agreement between individuals or parties.',
-    example: 'A non-aggression pact.',
-    level: 3,
-    is_a: ['Agreement'],
-    children:
+  "Pact": {
+    "part_of_speech": "noun",
+    "definition": "A formal agreement between individuals or parties.",
+    "example": "A non-aggression pact.",
+    "level": 3,
+    "is_a": ["Agreement"],
+    "children": null
   },
-  'Settlement': {
-    part_of_speech: 'noun',
-    definition: 'An official agreement intended to resolve a dispute or conflict.',
-    example: 'A peace settlement.',
-    level: 3,
-    is_a: ['Agreement', 'Law'],
-    children:
+  "Settlement": {
+    "part_of_speech": "noun",
+    "definition": "An official agreement intended to resolve a dispute or conflict.",
+    "example": "A peace settlement.",
+    "level": 3,
+    "is_a": ["Agreement", "Law"],
+    "children": null
   },
-  'Treaty': {
-    part_of_speech: 'noun',
-    definition: 'A formally concluded and ratified agreement between countries.',
-    example: 'A peace treaty.',
-    level: 3,
-    is_a: ['Agreement', 'Law'],
-    children:
+  "Treaty": {
+    "part_of_speech": "noun",
+    "definition": "A formally concluded and ratified agreement between countries.",
+    "example": "A peace treaty.",
+    "level": 3,
+    "is_a": ["Agreement", "Law"],
+    "children": null
   },
-  'Truce': {
-    part_of_speech: 'noun',
-    definition: 'An agreement between enemies or opponents to stop fighting or arguing for a certain time.',
-    example: 'Call a truce.',
-    level: 3,
-    is_a: ['Agreement'],
-    children:
+  "Truce": {
+    "part_of_speech": "noun",
+    "definition": "An agreement between enemies or opponents to stop fighting or arguing for a certain time.",
+    "example": "Call a truce.",
+    "level": 3,
+    "is_a": ["Agreement"],
+    "children": null
   },
-  'Rule': {
-    definition: 'A set of explicit or understood regulations or principles governing conduct.',
-    level: 2,
-    is_a: ['Concept'],
-    children:
+  "Rule": {
+    "definition": "A set of explicit or understood regulations or principles governing conduct.",
+    "level": 2,
+    "is_a": ["Concept"],
+    "children": null
   },
-  'Law-concept': {
-    part_of_speech: 'noun',
-    definition: 'The system of rules which a particular country or community recognizes as regulating the actions of its members.',
-    example: 'Obey the law.',
-    level: 3,
-    is_a:,
-    children:
+  "Law-concept": {
+    "part_of_speech": "noun",
+    "definition": "The system of rules which a particular country or community recognizes as regulating the actions of its members.",
+    "example": "Obey the law.",
+    "level": 3,
+    "is_a": ["Rule"],
+    "children": null
   },
-  'Policy': {
-    part_of_speech: 'noun',
-    definition: 'A course or principle of action adopted or proposed by a government, party, business, or individual.',
-    example: 'Company policy.',
-    level: 3,
-    is_a:,
-    children:
+  "Policy": {
+    "part_of_speech": "noun",
+    "definition": "A course or principle of action adopted or proposed by a government, party, business, or individual.",
+    "example": "Company policy.",
+    "level": 3,
+    "is_a": ["Rule"],
+    "children": null
   },
-  'Precedent': {
-    part_of_speech: 'noun',
-    definition: 'An earlier event or action that is regarded as an example or guide to be considered in subsequent similar circumstances.',
-    example: 'Set a legal precedent.',
-    level: 3,
-    is_a:,
-    children:
+  "Precedent": {
+    "part_of_speech": "noun",
+    "definition": "An earlier event or action that is regarded as an example or guide to be considered in subsequent similar circumstances.",
+    "example": "Set a legal precedent.",
+    "level": 3,
+    "is_a": ["Rule"],
+    "children": null
   },
-  'Principle': {
-    part_of_speech: 'noun',
-    definition: 'A fundamental truth or proposition that serves as the foundation for a system of belief or behavior.',
-    example: 'A moral principle.',
-    level: 3,
-    is_a:,
-    children:
+  "Principle": {
+    "part_of_speech": "noun",
+    "definition": "A fundamental truth or proposition that serves as the foundation for a system of belief or behavior.",
+    "example": "A moral principle.",
+    "level": 3,
+    "is_a": ["Rule"],
+    "children": null
   },
-  'Procedure': {
-    part_of_speech: 'noun',
-    definition: 'An established or official way of doing something.',
-    example: 'Follow the procedure.',
-    level: 3,
-    is_a:,
-    children:
+  "Procedure": {
+    "part_of_speech": "noun",
+    "definition": "An established or official way of doing something.",
+    "example": "Follow the procedure.",
+    "level": 3,
+    "is_a": ["Rule"],
+    "children": null
   },
-  'Regulation': {
-    part_of_speech: 'noun',
-    definition: 'A rule or directive made and maintained by an authority.',
-    example: 'Safety regulation-s.',
-    level: 3,
-    is_a:,
-    children:
+  "Regulation": {
+    "part_of_speech": "noun",
+    "definition": "A rule or directive made and maintained by an authority.",
+    "example": "Safety regulation-s.",
+    "level": 3,
+    "is_a": ["Rule"],
+    "children": null
   },
-  'Rule-concept': {
-    part_of_speech: 'noun',
-    definition: 'One of a set of explicit or understood regulations or principles governing conduct within a particular activity or sphere.',
-    example: 'Follow the rule-s.',
-    level: 3,
-    is_a:,
-    children:
+  "Rule-concept": {
+    "part_of_speech": "noun",
+    "definition": "One of a set of explicit or understood regulations or principles governing conduct within a particular activity or sphere.",
+    "example": "Follow the rule-s.",
+    "level": 3,
+    "is_a": ["Rule"],
+    "children": null
   },
-  'Standard': {
-    part_of_speech: 'noun',
-    definition: 'A level of quality or attainment.',
-    example: 'A high standard of work.',
-    level: 3,
-    is_a:,
-    children:
+  "Standard": {
+    "part_of_speech": "noun",
+    "definition": "A level of quality or attainment.",
+    "example": "A high standard of work.",
+    "level": 3,
+    "is_a": ["Rule"],
+    "children": null
   },
-  'Structure': {
-    definition: 'The arrangement of and relations between the parts or elements of something complex.',
-    level: 2,
-    is_a: ['Concept'],
-    children:
+  "Structure": {
+    "definition": "The arrangement of and relations between the parts or elements of something complex.",
+    "level": 2,
+    "is_a": ["Concept"],
+    "children": null
   },
-  'Arrangement': {
-    part_of_speech: 'noun',
-    definition: 'The action, process, or result of arranging or being arranged.',
-    example: 'A new arrangement of furniture.',
-    level: 3,
-    is_a:,
-    children:
+  "Arrangement": {
+    "part_of_speech": "noun",
+    "definition": "The action, process, or result of arranging or being arranged.",
+    "example": "A new arrangement of furniture.",
+    "level": 3,
+    "is_a": ["Structure"],
+    "children": null
   },
-  'Form-concept': {
-    part_of_speech: 'noun',
-    definition: 'The visible shape or configuration of something.',
-    example: 'The form of a crystal.',
-    level: 3,
-    is_a:,
-    children:
+  "Form-concept": {
+    "part_of_speech": "noun",
+    "definition": "The visible shape or configuration of something.",
+    "example": "The form of a crystal.",
+    "level": 3,
+    "is_a": ["Structure"],
+    "children": null
   },
-  'Format': {
-    part_of_speech: 'noun',
-    definition: 'The way in which something is arranged or set out.',
-    example: 'The format of the report.',
-    level: 3,
-    is_a:,
-    children:
+  "Format": {
+    "part_of_speech": "noun",
+    "definition": "The way in which something is arranged or set out.",
+    "example": "The format of the report.",
+    "level": 3,
+    "is_a": ["Structure"],
+    "children": null
   },
-  'Framework': {
-    part_of_speech: 'noun',
-    definition: 'A basic structure underlying a system, concept, or text.',
-    example: 'A legal framework.',
-    level: 3,
-    is_a:,
-    children:
+  "Framework": {
+    "part_of_speech": "noun",
+    "definition": "A basic structure underlying a system, concept, or text.",
+    "example": "A legal framework.",
+    "level": 3,
+    "is_a": ["Structure"],
+    "children": null
   },
-  'Hierarchy': {
-    part_of_speech: 'noun',
-    definition: 'A system in which members of an organization or society are ranked according to relative status or authority.',
-    example: 'A corporate hierarchy.',
-    level: 3,
-    is_a:,
-    children:
+  "Hierarchy": {
+    "part_of_speech": "noun",
+    "definition": "A system in which members of an organization or society are ranked according to relative status or authority.",
+    "example": "A corporate hierarchy.",
+    "level": 3,
+    "is_a": ["Structure"],
+    "children": null
   },
-  'Network': {
-    part_of_speech: 'noun',
-    definition: 'A group or system of interconnected people or things.',
-    example: 'A computer network.',
-    level: 3,
-    is_a:,
-    children:
+  "Network": {
+    "part_of_speech": "noun",
+    "definition": "A group or system of interconnected people or things.",
+    "example": "A computer network.",
+    "level": 3,
+    "is_a": ["Structure"],
+    "children": null
   },
-  'Order-arrangement': {
-    part_of_speech: 'noun',
-    definition: 'The arrangement or disposition of people or things in relation to each other.',
-    example: 'In alphabetical order.',
-    level: 3,
-    is_a:,
-    children:
+  "Order-arrangement": {
+    "part_of_speech": "noun",
+    "definition": "The arrangement or disposition of people or things in relation to each other.",
+    "example": "In alphabetical order.",
+    "level": 3,
+    "is_a": ["Structure"],
+    "children": null
   },
-  'Organization': {
-    part_of_speech: 'noun',
-    definition: 'The structure or arrangement of related or connected items.',
-    example: 'The organization of the book.',
-    level: 3,
-    is_a:,
-    children:
+  "Organization": {
+    "part_of_speech": "noun",
+    "definition": "The structure or arrangement of related or connected items.",
+    "example": "The organization of the book.",
+    "level": 3,
+    "is_a": ["Structure"],
+    "children": null
   },
-  'Pattern': {
-    part_of_speech: 'noun',
-    definition: 'A repeated decorative design.',
-    example: 'A pattern on the cloth.',
-    level: 3,
-    is_a:,
-    children:
+  "Pattern": {
+    "part_of_speech": "noun",
+    "definition": "A repeated decorative design.",
+    "example": "A pattern on the cloth.",
+    "level": 3,
+    "is_a": null,
+    "children": null
   },
-  'Structure-concept': {
-    part_of_speech: 'noun',
-    definition: 'The arrangement of and relations between the parts or elements of something complex.',
-    example: 'The structure of a sentence.',
-    level: 3,
-    is_a:,
-    children:
+  "Structure-concept": {
+    "part_of_speech": "noun",
+    "definition": "The arrangement of and relations between the parts or elements of something complex.",
+    "example": "The structure of a sentence.",
+    "level": 3,
+    "is_a": null,
+    "children": null
   },
-  'System': {
-    part_of_speech: 'noun',
-    definition: 'A set of things working together as parts of a mechanism or an interconnecting network.',
-    example: 'A computer system.',
-    level: 3,
-    is_a:,
-    children:
+  "System": {
+    "part_of_speech": "noun",
+    "definition": "A set of things working together as parts of a mechanism or an interconnecting network.",
+    "example": "A computer system.",
+    "level": 3,
+    "is_a": null,
+    "children": null
   }
 }

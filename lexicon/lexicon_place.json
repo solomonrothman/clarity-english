@@ -1,0 +1,255 @@
+// --- Place Lexicon: Part 1 of 5 (Place and Geographic Feature A-L) ---
+const lexicon = {
+  'Place': {
+    definition: 'Where thing be.',
+    level: 1,
+    is_a:,
+    children:
+  },
+  'Geographic Feature': {
+    definition: 'Natural formations on the Earth\'s surface.',
+    level: 2,
+    is_a: ['Place'],
+    children:
+  },
+  'Archipelago': {
+    part_of_speech: 'noun',
+    definition: 'A group of many island-s.',
+    example: 'The Hawaiian archipelago.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Bay': {
+    part_of_speech: 'noun',
+    definition: 'A broad inlet of the sea where the land curve-s inward.',
+    example: 'A boat in the bay.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Beach': {
+    part_of_speech: 'noun',
+    definition: 'A pebbly or sandy shore, especially by the ocean between high- and low- water mark-s.',
+    example: 'Walk on the beach.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Canyon': {
+    part_of_speech: 'noun',
+    definition: 'A deep gorge, typically one with a river flow-ing through it.',
+    example: 'The Grand Canyon.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Cape': {
+    part_of_speech: 'noun',
+    definition: 'A headland or promontory.',
+    example: 'Cape of Good Hope.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Cave': {
+    part_of_speech: 'noun',
+    definition: 'A large underground chamber, typically of natural origin, in a hillside or cliff.',
+    example: 'Explore the cave.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Channel': {
+    part_of_speech: 'noun',
+    definition: 'A length of water wider than a strait, joining two larger areas of water, especially two seas.',
+    example: 'The English Channel.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Cliff': {
+    part_of_speech: 'noun',
+    definition: 'A steep rock face, especially at the edge of the sea.',
+    example: 'Stand on the cliff.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Coast': {
+    part_of_speech: 'noun',
+    definition: 'The part of the land adjoining or near the sea.',
+    example: 'The east coast.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Continent': {
+    part_of_speech: 'noun',
+    definition: 'Any of the world\'s main continuous expanses of land (Africa, Antarctica, Asia, Australia, Europe, North America, South America).',
+    example: 'The continent of Africa.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Cove': {
+    part_of_speech: 'noun',
+    definition: 'A small sheltered bay.',
+    example: 'A hidden cove.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Crater': {
+    part_of_speech: 'noun',
+    definition: 'A large bowl-shaped cavity in the ground or on the surface of a planet or the moon, typically one caused by an explosion or the impact of a meteorite.',
+    example: 'A volcanic crater.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Creek': {
+    part_of_speech: 'noun',
+    definition: 'A stream, brook, or minor tributary of a river.',
+    example: 'Fish in the creek.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Delta': {
+    part_of_speech: 'noun',
+    definition: 'A triangular tract of sediment deposited at the mouth of a river.',
+    example: 'The Nile Delta.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Desert': {
+    part_of_speech: 'noun',
+    definition: 'A dry, barren area of land, especially one covered with sand.',
+    example: 'The Sahara Desert.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Dune': {
+    part_of_speech: 'noun',
+    definition: 'A mound or ridge of sand or other loose sediment formed by the wind.',
+    example: 'A sand dune.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Fjord': {
+    part_of_speech: 'noun',
+    definition: 'A long, narrow, deep inlet of the sea between high cliff-s.',
+    example: 'A Norwegian fjord.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Foothill': {
+    part_of_speech: 'noun',
+    definition: 'A low hill at the base of a mountain or mountain range.',
+    example: 'The foothill-s of the Rockies.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Forest': {
+    part_of_speech: 'noun',
+    definition: 'A large area covered chiefly with tree-s and undergrowth.',
+    example: 'A dense forest.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Geyser': {
+    part_of_speech: 'noun',
+    definition: 'A hot spring in which water intermittently boils, sending a tall column of water and steam into the air.',
+    example: 'Old Faithful geyser.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Glacier': {
+    part_of_speech: 'noun',
+    definition: 'A slowly moving mass or river of ice formed by the accumulation and compaction of snow on mountains or near the poles.',
+    example: 'A melting glacier.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Gorge': {
+    part_of_speech: 'noun',
+    definition: 'A narrow valley between hill-s or mountain-s, typically with steep rocky wall-s and a stream running through it.',
+    example: 'Hike through the gorge.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Gulf': {
+    part_of_speech: 'noun',
+    definition: 'A deep inlet of the sea almost surrounded by land, with a narrow mouth.',
+    example: 'The Gulf of Mexico.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Hill': {
+    part_of_speech: 'noun',
+    definition: 'A naturally raised area of land, not as high or craggy as a mountain.',
+    example: 'Climb the hill.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Iceberg': {
+    part_of_speech: 'noun',
+    definition: 'A large floating mass of ice detached from a glacier or ice sheet and carried out to sea.',
+    example: 'The ship hit an iceberg.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Island': {
+    part_of_speech: 'noun',
+    definition: 'A piece of land surrounded by water.',
+    example: 'A tropical island.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Isthmus': {
+    part_of_speech: 'noun',
+    definition: 'A narrow strip of land with sea on either side, form-ing a link between two larger areas of land.',
+    example: 'The Isthmus of Panama.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Jungle': {
+    part_of_speech: 'noun',
+    definition: 'An area of land overgrown with dense forest and tangled vegetation, typically in the tropics.',
+    example: 'An Amazon jungle.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Lagoon': {
+    part_of_speech: 'noun',
+    definition: 'A stretch of salt water separated from the sea by a low sandbank or coral reef.',
+    example: 'A tropical lagoon.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Lake': {
+    part_of_speech: 'noun',
+    definition: 'A large body of water surrounded by land.',
+    example: 'Swim in the lake.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+}

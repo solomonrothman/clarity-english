@@ -1485,7 +1485,6 @@ const lexicon = {
     is_a: ['Concept'],
     children:
   },
-  // --- Placeholder Categories under 'Concept' ---
   'Description (Adjectives)': { level: 2, is_a: ['Concept'], children: },
   'Manner (Adverbs)': { level: 2, is_a: ['Concept'], children: },
   'Color': { level: 2, is_a: ['Concept'], children: },

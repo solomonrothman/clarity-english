@@ -1,1 +1,207 @@
 
+const lexicon = {
+  'Concept': {
+    definition: 'Idea, no touch.',
+    level: 1,
+    is_a:,
+    children:
+  },
+  'Quality': {
+    definition: 'A feature or characteristic of something.',
+    level: 2,
+    is_a: ['Concept'],
+    children:
+  },
+  'Beauty': {
+    part_of_speech: 'noun',
+    definition: 'The quality of being pleasing to the senses.',
+    example: 'The beauty of the sunset.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Clarity': {
+    part_of_speech: 'noun',
+    definition: 'The quality of being clear and easy to understand.',
+    example: 'Speak with clarity.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Color': {
+    part_of_speech: 'noun',
+    definition: 'The property possessed by an object of producing different sensations on the eye as a result of the way the object reflects or emits light.',
+    example: 'The color of the sky.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Complexity': {
+    part_of_speech: 'noun',
+    definition: 'The state or quality of being intricate or complicated.',
+    example: 'The complexity of the problem.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Consistency': {
+    part_of_speech: 'noun',
+    definition: 'The quality of achieving a level of performance which does not vary greatly in quality over time.',
+    example: 'Consistency is key.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Depth': {
+    part_of_speech: 'noun',
+    definition: 'The distance from the top or surface of something to its bottom.',
+    example: 'The depth of the ocean.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Diversity': {
+    part_of_speech: 'noun',
+    definition: 'The state of being diverse; variety.',
+    example: 'A diversity of opinion-s.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Hardness': {
+    part_of_speech: 'noun',
+    definition: 'The quality or condition of being hard.',
+    example: 'The hardness of the diamond.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Height': {
+    part_of_speech: 'noun',
+    definition: 'The measurement from base to top or (of a standing person) from head to foot.',
+    example: 'The height of the building.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Honesty': {
+    part_of_speech: 'noun',
+    definition: 'The quality of being honest.',
+    example: 'A reputation for honesty.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Importance': {
+    part_of_speech: 'noun',
+    definition: 'The state or fact of being of great significance or value.',
+    example: 'A matter of great importance.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Intensity': {
+    part_of_speech: 'noun',
+    definition: 'The quality of being intense.',
+    example: 'The intensity of the light.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Length': {
+    part_of_speech: 'noun',
+    definition: 'The measurement or extent of something from end to end.',
+    example: 'The length of the rope.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Purity': {
+    part_of_speech: 'noun',
+    definition: 'Freedom from adulteration or contamination.',
+    example: 'The purity of the water.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Shape': {
+    part_of_speech: 'noun',
+    definition: 'The external form or appearance characteristic of someone or something; the outline of an area or figure.',
+    example: 'The shape of the box.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Simplicity': {
+    part_of_speech: 'noun',
+    definition: 'The quality or condition of being easy to understand or do.',
+    example: 'The simplicity of the design.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Size': {
+    part_of_speech: 'noun',
+    definition: 'The relative extent of something; a thing\'s overall dimensions or magnitude.',
+    example: 'The size of the house.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Softness': {
+    part_of_speech: 'noun',
+    definition: 'The quality of being easy to press, bend, cut, or fold.',
+    example: 'The softness of the pillow.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Speed': {
+    part_of_speech: 'noun',
+    definition: 'The rate at which someone or something is able to move or operate.',
+    example: 'The speed of light.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Strength': {
+    part_of_speech: 'noun',
+    definition: 'The quality of being strong.',
+    example: 'He has great strength.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Temperature': {
+    part_of_speech: 'noun',
+    definition: 'The degree of heat present in a substance or object.',
+    example: 'A high temperature.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Texture': {
+    part_of_speech: 'noun',
+    definition: 'The feel, appearance, or consistency of a surface or a substance.',
+    example: 'A rough texture.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Weight': {
+    part_of_speech: 'noun',
+    definition: 'The heaviness of a person or thing.',
+    example: 'The weight of the box.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+  'Width': {
+    part_of_speech: 'noun',
+    definition: 'The measurement or extent of something from side to side.',
+    example: 'The width of the river.',
+    level: 3,
+    is_a: ['Quality'],
+    children:
+  },
+}

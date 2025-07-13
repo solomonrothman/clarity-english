@@ -1,0 +1,798 @@
+const lexicon = {
+  'Law': {
+    definition: 'Rule-s made by government.',
+    level: 2,
+    is_a: ['Concept'],
+    children:
+  },
+  'Appeal': {
+    part_of_speech: 'noun',
+    definition: 'Ask higher court change decision.',
+    example: 'Make appeal.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Arrest': {
+    part_of_speech: 'noun',
+    definition: 'Take person, police.',
+    example: 'Under arrest.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Authority': {
+    part_of_speech: 'noun',
+    definition: 'Power to give order.',
+    example: 'Have authority.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Bill': {
+    part_of_speech: 'noun',
+    definition: 'Idea for new law.',
+    example: 'Debate bill.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Case': {
+    part_of_speech: 'noun',
+    definition: 'Problem for court.',
+    example: 'Court hear case.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Charge': {
+    part_of_speech: 'noun',
+    definition: 'Say person do crime, official.',
+    example: 'Face charge.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Constitution': {
+    part_of_speech: 'noun',
+    definition: 'Big rule for country.',
+    example: 'Follow constitution.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Contract': {
+    part_of_speech: 'noun',
+    definition: 'Paper, agree do thing, legal.',
+    example: 'Sign contract.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Conviction': {
+    part_of_speech: 'noun',
+    definition: 'Say guilty, court.',
+    example: 'Have conviction.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Copyright': {
+    part_of_speech: 'noun',
+    definition: 'Right to copy, make, sell.',
+    example: 'Have copyright.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Court': {
+    part_of_speech: 'noun',
+    definition: 'Place for judge, law.',
+    example: 'Go to court.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Crime': {
+    part_of_speech: 'noun',
+    definition: 'Break law.',
+    example: 'Commit crime.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Defense': {
+    part_of_speech: 'noun',
+    definition: 'Protect, speak for.',
+    example: 'Legal defense.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Evidence': {
+    part_of_speech: 'noun',
+    definition: 'Show true, false.',
+    example: 'Present evidence.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Fine': {
+    part_of_speech: 'noun',
+    definition: 'Money pay for break rule.',
+    example: 'Pay fine.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Government': {
+    part_of_speech: 'noun',
+    definition: 'Group control country.',
+    example: 'Elect government.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Guilt': {
+    part_of_speech: 'noun',
+    definition: 'Do wrong.',
+    example: 'Prove guilt.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Hearing': {
+    part_of_speech: 'noun',
+    definition: 'Go to court, listen.',
+    example: 'Attend hearing.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Innocence': {
+    part_of_speech: 'noun',
+    definition: 'No do wrong.',
+    example: 'Prove innocence.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Judge': {
+    part_of_speech: 'noun',
+    definition: 'Person decide in court.',
+    example: 'Talk to judge.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Judgment': {
+    part_of_speech: 'noun',
+    definition: 'Decision, court.',
+    example: 'Await judgment.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Jurisdiction': {
+    part_of_speech: 'noun',
+    definition: 'area of legal authority.',
+    example: 'Within-ed jurisdiction.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Jury': {
+    part_of_speech: 'noun',
+    definition: 'Group people decide in court.',
+    example: 'Be on jury.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Justice': {
+    part_of_speech: 'noun',
+    definition: 'Fair, right.',
+    example: 'Seek justice.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Lawsuit': {
+    part_of_speech: 'noun',
+    definition: 'Take person to court.',
+    example: 'File lawsuit.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Lawyer': {
+    part_of_speech: 'noun',
+    definition: 'Person know law.',
+    example: 'Hire lawyer.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Legislation': {
+    part_of_speech: 'noun',
+    definition: 'Law.',
+    example: 'Pass legislation.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Liability': {
+    part_of_speech: 'noun',
+    definition: 'Legal responsibility.',
+    example: 'Accept liability.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'License': {
+    part_of_speech: 'noun',
+    definition: 'Paper, say can do.',
+    example: 'Driver license.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Order-legal': {
+    part_of_speech: 'noun',
+    definition: 'Tell must do, court.',
+    example: 'Court order.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Pardon': {
+    part_of_speech: 'noun',
+    definition: 'Forgive crime.',
+    example: 'Grant pardon.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Penalty': {
+    part_of_speech: 'noun',
+    definition: 'Punish.',
+    example: 'Pay penalty.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Permission': {
+    part_of_speech: 'noun',
+    definition: 'Can do.',
+    example: 'Ask permission.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Policy': {
+    part_of_speech: 'noun',
+    definition: 'Rule, plan.',
+    example: 'Government policy.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Precedent': {
+    part_of_speech: 'noun',
+    definition: 'Past decision, use as rule.',
+    example: 'Set precedent.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Principle': {
+    part_of_speech: 'noun',
+    definition: 'Basic rule, belief.',
+    example: 'Follow principle.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Prison': {
+    part_of_speech: 'noun',
+    definition: 'Place for keep bad people.',
+    example: 'Go to prison.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Procedure': {
+    part_of_speech: 'noun',
+    definition: 'Way do thing, rule.',
+    example: 'Follow procedure.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Proof': {
+    part_of_speech: 'noun',
+    definition: 'Show true.',
+    example: 'Need proof.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Prosecution': {
+    part_of_speech: 'noun',
+    definition: 'Try prove guilty, court.',
+    example: 'Face prosecution.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Punishment': {
+    part_of_speech: 'noun',
+    definition: 'Make pay for wrong.',
+    example: 'Receive punishment.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Regulation': {
+    part_of_speech: 'noun',
+    definition: 'Rule, control.',
+    example: 'Follow regulation.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Responsibility': {
+    part_of_speech: 'noun',
+    definition: 'Thing must do.',
+    example: 'Take responsibility.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Right': {
+    part_of_speech: 'noun',
+    definition: 'Thing can do, by law.',
+    example: 'Have right-s.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Rule': {
+    part_of_speech: 'noun',
+    definition: 'Say what can do, no can do.',
+    example: 'Follow rule.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Sanction': {
+    part_of_speech: 'noun',
+    definition: 'Punish, often for break rule.',
+    example: 'Face sanction.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Sentence': {
+    part_of_speech: 'noun',
+    definition: 'Punish give by court. Also: Group of words.',
+    example: 'Receive sentence.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Settlement': {
+    part_of_speech: 'noun',
+    definition: 'Agreement, end problem.',
+    example: 'Reach settlement.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Statute': {
+    part_of_speech: 'noun',
+    definition: 'Law, write down.',
+    example: 'Follow statute.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Sue': {
+    part_of_speech: 'verb',
+    definition: 'Take person to court.',
+    example: 'Sue company.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Testimony': {
+    part_of_speech: 'noun',
+    definition: 'Statement in court.',
+    example: 'Give testimony.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Treaty': {
+    part_of_speech: 'noun',
+    definition: 'Agreement, country.',
+    example: 'Sign treaty.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Trial': {
+    part_of_speech: 'noun',
+    definition: 'Go to court, judge decide.',
+    example: 'Have trial.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Verdict': {
+    part_of_speech: 'noun',
+    definition: 'Decision in court.',
+    example: 'Jury give verdict.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Violation': {
+    part_of_speech: 'noun',
+    definition: 'Break rule, law.',
+    example: 'Law violation.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Vote': {
+    part_of_speech: 'noun',
+    definition: 'Choose.',
+    example: 'Cast vote.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Witness': {
+    part_of_speech: 'noun',
+    definition: 'Person see thing happen.',
+    example: 'Be witness.',
+    level: 3,
+    is_a: ['Law'],
+    children:
+  },
+  'Finance': {
+    definition: 'About money.',
+    level: 2,
+    is_a: ['Concept'],
+    children:
+  },
+  'Asset': {
+    part_of_speech: 'noun',
+    definition: 'Thing have value.',
+    example: 'House be asset.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Budget': {
+    part_of_speech: 'noun',
+    definition: 'Plan for money.',
+    example: 'Make budget.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Capital': {
+    part_of_speech: 'noun',
+    definition: 'Money for start business.',
+    example: 'Raise capital.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Cash': {
+    part_of_speech: 'noun',
+    definition: 'Money, coin, paper.',
+    example: 'Pay cash.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Cost': {
+    part_of_speech: 'noun',
+    definition: 'How much money.',
+    example: 'High cost.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Credit': {
+    part_of_speech: 'noun',
+    definition: 'Buy now, pay later.',
+    example: 'Use credit.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Currency': {
+    part_of_speech: 'noun',
+    definition: 'Money system.',
+    example: 'Use dollar currency.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Debt': {
+    part_of_speech: 'noun',
+    definition: 'Money owe.',
+    example: 'Pay debt.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Deposit': {
+    part_of_speech: 'noun',
+    definition: 'Put money in bank.',
+    example: 'Make deposit.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Discount': {
+    part_of_speech: 'noun',
+    definition: 'Price go down.',
+    example: 'Get discount.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Donation': {
+    part_of_speech: 'noun',
+    definition: 'Give money, help.',
+    example: 'Make donation.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Earnings': {
+    part_of_speech: 'noun',
+    definition: 'Money get from work.',
+    example: 'High earnings.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Economics': {
+    part_of_speech: 'noun',
+    definition: 'Study money, business.',
+    example: 'Study economics.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Economy': {
+    part_of_speech: 'noun',
+    definition: 'Money, business, country.',
+    example: 'Strong economy.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Expense': {
+    part_of_speech: 'noun',
+    definition: 'Money spend.',
+    example: 'Reduce expense.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Fee': {
+    part_of_speech: 'noun',
+    definition: 'Money pay for service.',
+    example: 'Pay fee.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Financial': {
+    part_of_speech: 'adjective',
+    definition: 'About money.',
+    example: 'Financial problem.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Fund': {
+    part_of_speech: 'noun',
+    definition: 'Money, save for use.',
+    example: 'Start fund.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Funding': {
+    part_of_speech: 'noun',
+    definition: 'Money give.',
+    example: 'Receive funding.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Income': {
+    part_of_speech: 'noun',
+    definition: 'Money get.',
+    example: 'Have income.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Inflation': {
+    part_of_speech: 'noun',
+    definition: 'Price go up.',
+    example: 'High inflation.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Investment': {
+    part_of_speech: 'noun',
+    definition: 'Put money in, hope get more.',
+    example: 'Make investment.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Loan': {
+    part_of_speech: 'noun',
+    definition: 'Money borrow.',
+    example: 'Get loan.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Loss': {
+    part_of_speech: 'noun',
+    definition: 'Lose money.',
+    example: 'Suffer loss.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Money': {
+    part_of_speech: 'noun',
+    definition: 'Use for buy.',
+    example: 'Have money.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Mortgage': {
+    part_of_speech: 'noun',
+    definition: 'Loan for buy house.',
+    example: 'Pay mortgage.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Payment': {
+    part_of_speech: 'noun',
+    definition: 'Give money.',
+    example: 'Make payment.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Price': {
+    part_of_speech: 'noun',
+    definition: 'How much money for thing.',
+    example: 'High price.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Profit': {
+    part_of_speech: 'noun',
+    definition: 'Money make from business.',
+    example: 'Make profit.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Property': {
+    part_of_speech: 'noun',
+    definition: 'Thing belong to person.',
+    example: 'Own property.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Purchase': {
+    part_of_speech: 'noun',
+    definition: 'Buy.',
+    example: 'Make purchase.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Receipt': {
+    part_of_speech: 'noun',
+    definition: 'Paper, show pay.',
+    example: 'Get receipt.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Rent': {
+    part_of_speech: 'noun',
+    definition: 'Pay use thing, house.',
+    example: 'Pay rent.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Revenue': {
+    part_of_speech: 'noun',
+    definition: 'Money come in, business.',
+    example: 'Increase revenue.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Salary': {
+    part_of_speech: 'noun',
+    definition: 'Money for work, job.',
+    example: 'Earn salary.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Saving': {
+    part_of_speech: 'noun',
+    definition: 'Money keep, no spend.',
+    example: 'Have saving-s.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Stock': {
+    part_of_speech: 'noun',
+    definition: 'Part of company. Also: Supply.',
+    example: 'Buy stock.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Tax': {
+    part_of_speech: 'noun',
+    definition: 'Money for government.',
+    example: 'Pay tax.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Value': {
+    part_of_speech: 'noun',
+    definition: 'How much worth.',
+    example: 'High value.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Wage': {
+    part_of_speech: 'noun',
+    definition: 'Money for work, hour.',
+    example: 'Earn wage.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+  'Wealth': {
+    part_of_speech: 'noun',
+    definition: 'Much money, thing.',
+    example: 'Have wealth.',
+    level: 3,
+    is_a: ['Finance'],
+    children:
+  },
+}

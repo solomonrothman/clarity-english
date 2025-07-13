@@ -252,4 +252,426 @@ const lexicon = {
     is_a: ['Geographic Feature'],
     children:
   },
+     'Marsh': {
+    part_of_speech: 'noun',
+    definition: 'An area of low-lying land which is flooded in wet season-s or at high tide, and typically remain-s waterlogged at all time-s.',
+    example: 'A salt marsh.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Meadow': {
+    part_of_speech: 'noun',
+    definition: 'A piece of grassland, especially one used for hay.',
+    example: 'Flower-s in the meadow.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Mesa': {
+    part_of_speech: 'noun',
+    definition: 'An isolated flat-topped hill with steep side-s, found in landscape-s with horizontal strata.',
+    example: 'A desert mesa.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Mountain': {
+    part_of_speech: 'noun',
+    definition: 'A large natural elevation of the earth\'s surface rising abruptly from the surround-ing level.',
+    example: 'Mount Everest.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Oasis': {
+    part_of_speech: 'noun',
+    definition: 'A fertile spot in a desert where water is found.',
+    example: 'Find an oasis.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Ocean': {
+    part_of_speech: 'noun',
+    definition: 'A very large expanse of sea, in particular each of the main areas into which the sea is divided geographically.',
+    example: 'The Pacific Ocean.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Peninsula': {
+    part_of_speech: 'noun',
+    definition: 'A piece of land almost surrounded by water or project-ing out into a body of water.',
+    example: 'The Florida peninsula.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Plain': {
+    part_of_speech: 'noun',
+    definition: 'A large area of flat land with few tree-s.',
+    example: 'The Great Plain-s.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Plateau': {
+    part_of_speech: 'noun',
+    definition: 'An area of relatively level high ground.',
+    example: 'The Tibetan Plateau.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Pond': {
+    part_of_speech: 'noun',
+    definition: 'A small body of still water formed naturally or by hollowing or embank-ing.',
+    example: 'A duck pond.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Prairie': {
+    part_of_speech: 'noun',
+    definition: 'A large open area of grassland.',
+    example: 'The American prairie.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Rainforest': {
+    part_of_speech: 'noun',
+    definition: 'A luxuriant, dense forest rich in biodiversity, found typically in tropical areas with consistently heavy rainfall.',
+    example: 'The Amazon rainforest.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Rapids': {
+    part_of_speech: 'noun',
+    definition: 'A fast-flow-ing and turbulent part of the course of a river.',
+    example: 'Go through the rapids.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Reef': {
+    part_of_speech: 'noun',
+    definition: 'A ridge of jagged rock, coral, or sand just above or below the surface of the sea.',
+    example: 'A coral reef.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Reservoir': {
+    part_of_speech: 'noun',
+    definition: 'A large natural or artificial lake used as a source of water supply.',
+    example: 'The city reservoir.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'River': {
+    part_of_speech: 'noun',
+    definition: 'A large natural stream of water flow-ing in a channel to the sea, a lake, or another such stream.',
+    example: 'The Nile River.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Savanna': {
+    part_of_speech: 'noun',
+    definition: 'A grassy plain in tropical or subtropical region-s, with few tree-s.',
+    example: 'The African savanna.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Sea': {
+    part_of_speech: 'noun',
+    definition: 'The expanse of salt water that surround-s the earth\'s landmasses and cover-s more than two-thirds of the planet\'s surface.',
+    example: 'Sail on the sea.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Sound-place': {
+    part_of_speech: 'noun',
+    definition: 'A narrow stretch of water form-ing an inlet or connect-ing two wider areas of water such as two sea-s or a sea and a lake.',
+    example: 'Puget Sound.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Steppe': {
+    part_of_speech: 'noun',
+    definition: 'A large area of flat un-forested grassland in southeastern Europe or Siberia.',
+    example: 'The Russian steppe.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Strait': {
+    part_of_speech: 'noun',
+    definition: 'A narrow passage of water connect-ing two sea-s or two other large areas of water.',
+    example: 'The Strait of Gibraltar.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Stream': {
+    part_of_speech: 'noun',
+    definition: 'A small, narrow river.',
+    example: 'A mountain stream.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Swamp': {
+    part_of_speech: 'noun',
+    definition: 'An area of low lying, uncultivated ground where water collect-s; a bog or marsh.',
+    example: 'A mangrove swamp.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Tundra': {
+    part_of_speech: 'noun',
+    definition: 'A vast, flat, treeless Arctic region in which the subsoil is permanently frozen.',
+    example: 'The Alaskan tundra.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Valley': {
+    part_of_speech: 'noun',
+    definition: 'A low area of land between hill-s or mountain-s, typically with a river or stream flow-ing through it.',
+    example: 'A green valley.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Volcano': {
+    part_of_speech: 'noun',
+    definition: 'A mountain or hill, typically conical, hav-ing a crater or vent through which lava, rock fragment-s, hot vapor, and gas are or have been erupted from the earth\'s crust.',
+    example: 'An active volcano.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Waterfall': {
+    part_of_speech: 'noun',
+    definition: 'A cascade of water fall-ing from a height, formed when a river or stream flow-s over a precipice or steep incline.',
+    example: 'Niagara Falls be a waterfall.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+  'Wetland': {
+    part_of_speech: 'noun',
+    definition: 'Land consist-ing of marsh-es or swamp-s; saturated land.',
+    example: 'Protect the wetland-s.',
+    level: 3,
+    is_a: ['Geographic Feature'],
+    children:
+  },
+      'Structure': {
+    definition: 'Things that have been built.',
+    level: 2,
+    is_a: ['Place'],
+    children:
+  },
+  'Airport': {
+    part_of_speech: 'noun',
+    definition: 'Place where aircraft operate, with runway-s, terminal-s.',
+    example: 'The plane land-s at the airport.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Amphitheater': {
+    part_of_speech: 'noun',
+    definition: 'An open circular or oval building with a central space surrounded by tier-s of seat-s for spectator-s.',
+    example: 'A Roman amphitheater.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Aqueduct': {
+    part_of_speech: 'noun',
+    definition: 'An artificial channel for convey-ing water, typically in the form of a bridge across a valley or other gap.',
+    example: 'An ancient Roman aqueduct.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Arena': {
+    part_of_speech: 'noun',
+    definition: 'A level area surround-ed by seat-ing, in which sport-s, entertainment, and other public event-s are held.',
+    example: 'A sports arena.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Bridge': {
+    part_of_speech: 'noun',
+    definition: 'Go over water, road.',
+    example: 'Cross bridge.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Building': {
+    part_of_speech: 'noun',
+    definition: 'Place with wall, roof.',
+    example: 'Work in building.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Bunker': {
+    part_of_speech: 'noun',
+    definition: 'A reinforced underground shelter, typically for use in wartime.',
+    example: 'A secret bunker.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Canal': {
+    part_of_speech: 'noun',
+    definition: 'An artificial waterway constructed to allow the passage of boat-s or ship-s inland or to convey water for irrigation.',
+    example: 'The Suez Canal.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Castle': {
+    part_of_speech: 'noun',
+    definition: 'A large building, typically of the medieval period, fortified against attack with thick wall-s, battlements, tower-s, and in many cases a moat.',
+    example: 'A medieval castle.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Cathedral': {
+    part_of_speech: 'noun',
+    definition: 'The principal church of a diocese, with which the bishop is officially associated.',
+    example: 'A beautiful cathedral.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Chapel': {
+    part_of_speech: 'noun',
+    definition: 'A small building for Christian worship.',
+    example: 'A wedding chapel.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Church': {
+    part_of_speech: 'noun',
+    definition: 'A building used for public Christian worship.',
+    example: 'Go to church on Sunday.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Cinema': {
+    part_of_speech: 'noun',
+    definition: 'A theater where movie-s are shown for public entertainment.',
+    example: 'Go to the cinema.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Cottage': {
+    part_of_speech: 'noun',
+    definition: 'A small simple house, typically one in the country.',
+    example: 'A cottage in the wood-s.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Dam': {
+    part_of_speech: 'noun',
+    definition: 'Wall hold water.',
+    example: 'Build dam.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Dock': {
+    part_of_speech: 'noun',
+    definition: 'A structure of masonry, concrete, etc., built along the shore of a harbor or river, at which vessel-s may lie.',
+    example: 'The ship be at the dock.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Dome': {
+    part_of_speech: 'noun',
+    definition: 'A rounded vault form-ing the roof of a building or structure, typically with a circular base.',
+    example: 'A large dome.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Factory': {
+    part_of_speech: 'noun',
+    definition: 'A building or group of building-s where good-s are manufactured or assembled chiefly by machine.',
+    example: 'A car factory.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Fence': {
+    part_of_speech: 'noun',
+    definition: 'Around yard, field.',
+    example: 'Build fence.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Fort': {
+    part_of_speech: 'noun',
+    definition: 'Strong building, protect.',
+    example: 'Build fort.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Highway': {
+    part_of_speech: 'noun',
+    definition: 'Big road, connect city.',
+    example: 'Drive on highway.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Hospital': {
+    part_of_speech: 'noun',
+    definition: 'An institution providing medical and surgical treatment and nursing care for sick or injured people.',
+    example: 'Go to the hospital.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'House': {
+    part_of_speech: 'noun',
+    definition: 'A building for human habitation, especially one that is lived in by a family or small group of people.',
+    example: 'Live in a house.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Hut': {
+    part_of_speech: 'noun',
+    definition: 'A small simple or crude house or shelter.',
+    example: 'A wood hut.',
+    level: 3,
+    is_a:,
+    children:
+  },
 }

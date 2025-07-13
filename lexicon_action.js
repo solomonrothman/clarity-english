@@ -1837,4 +1837,907 @@ const lexicon = {
     is_a: ['Movement'],
     children:
   },
+    'Part': {
+    definition: 'A piece of a whole.',
+    level: 3,
+    is_a: ['Object'],
+    children:
+  },
+  'Blade': {
+    part_of_speech: 'noun',
+    definition: 'Sharp part of knife, tool.',
+    example: 'Sharp blade.',
+    level: 4,
+    is_a: ['Part', 'Object'],
+    children:
+  },
+  'Bit': {
+    part_of_speech: 'noun',
+    definition: 'A small piece or quantity of something.',
+    example: 'A bit of food.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Branch': {
+    part_of_speech: 'noun',
+    definition: 'A part of a tree which grows out from the trunk.',
+    example: 'A tree branch.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Chapter': {
+    part_of_speech: 'noun',
+    definition: 'A main division of a book.',
+    example: 'Read the first chapter.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Component': {
+    part_of_speech: 'noun',
+    definition: 'A part or element of a larger whole.',
+    example: 'A computer component.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Core': {
+    part_of_speech: 'noun',
+    definition: 'The central or most important part of something.',
+    example: 'The core of the problem.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Deck': {
+    part_of_speech: 'noun',
+    definition: 'A floor of a ship.',
+    example: 'On the ship deck.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'End': {
+    part_of_speech: 'noun',
+    definition: 'The final part of something.',
+    example: 'The end of the road.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Feature': {
+    part_of_speech: 'noun',
+    definition: 'A distinctive attribute or aspect of something.',
+    example: 'A key feature.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Figure': {
+    part_of_speech: 'noun',
+    definition: 'A number, especially one which forms part of official data.',
+    example: 'A sales figure.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Front': {
+    part_of_speech: 'noun',
+    definition: 'The most forward part of something.',
+    example: 'The front of the line.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Handle': {
+    part_of_speech: 'noun',
+    definition: 'The part by which a thing is carried, used, or controlled.',
+    example: 'A door handle.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Layer': {
+    part_of_speech: 'noun',
+    definition: 'A sheet, quantity, or thickness of material, typically one of several, covering a surface or body.',
+    example: 'A layer of dust.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Middle': {
+    part_of_speech: 'noun',
+    definition: 'The point or position at an equal distance from the sides, edges, or ends of something.',
+    example: 'The middle of the room.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Piece': {
+    part_of_speech: 'noun',
+    definition: 'A part or portion of something.',
+    example: 'A piece of cake.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Section': {
+    part_of_speech: 'noun',
+    definition: 'Any of the more or less distinct parts into which something is or may be divided or from which it is made up.',
+    example: 'A section of the report.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Sector': {
+    part_of_speech: 'noun',
+    definition: 'An area or portion that is distinct from others.',
+    example: 'The financial sector.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Segment': {
+    part_of_speech: 'noun',
+    definition: 'Each of the parts into which something is or may be divided.',
+    example: 'A segment of an orange.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Side': {
+    part_of_speech: 'noun',
+    definition: 'A position to the left or right of an object, place, or central point.',
+    example: 'The left side.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Slice': {
+    part_of_speech: 'noun',
+    definition: 'A thin, broad piece of food, such as bread, meat, or cake, cut from a larger portion.',
+    example: 'A slice of pizza.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Stem': {
+    part_of_speech: 'noun',
+    definition: 'The main body or stalk of a plant.',
+    example: 'A flower stem.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Tip': {
+    part_of_speech: 'noun',
+    definition: 'The pointed or rounded end of something.',
+    example: 'The tip of the iceberg.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Top': {
+    part_of_speech: 'noun',
+    definition: 'The highest or uppermost point, part, or surface of something.',
+    example: 'The top of the mountain.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Trunk': {
+    part_of_speech: 'noun',
+    definition: 'The main woody stem of a tree.',
+    example: 'A tree trunk.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Unit': {
+    part_of_speech: 'noun',
+    definition: 'An individual thing or person regarded as single and complete but which can also form an individual component of a larger or more complex whole.',
+    example: 'A unit of measurement.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+  'Wing': {
+    part_of_speech: 'noun',
+    definition: 'A modified forelimb on a bird or insect, used for flight.',
+    example: 'A bird wing.',
+    level: 4,
+    is_a: ['Part'],
+    children:
+  },
+     'Weapon': {
+    definition: 'Tools for fighting or hunting.',
+    level: 3,
+    is_a: ['Object'],
+    children:
+  },
+  'Bomb': {
+    part_of_speech: 'noun',
+    definition: 'Explode, cause damage.',
+    example: 'Bomb explode-d.',
+    level: 4,
+    is_a: ['Weapon'],
+    children:
+  },
+  'Gun': {
+    part_of_speech: 'noun',
+    definition: 'Shoot bullet.',
+    example: 'Fire gun.',
+    level: 4,
+    is_a:,
+    children:
+  },
+  'Rifle': {
+    part_of_speech: 'noun',
+    definition: 'Long gun.',
+    example: 'Shoot rifle.',
+    level: 4,
+    is_a: ['Weapon'],
+    children:
+  },
+  'Missile': {
+    part_of_speech: 'noun',
+    definition: 'Fly, explode.',
+    example: 'Launch missile.',
+    level: 4,
+    is_a: ['Weapon'],
+    children:
+  },
+  'Sword': {
+    part_of_speech: 'noun',
+    definition: 'Long weapon, sharp.',
+    example: 'Fight with sword.',
+    level: 4,
+    is_a:,
+    children:
+  },
+  'Toy': {
+    definition: 'Objects for play.',
+    level: 3,
+    is_a: ['Object'],
+    children:
+  },
+  'Ball': {
+    part_of_speech: 'noun',
+    definition: 'Round thing, play game.',
+    example: 'Throw ball.',
+    level: 4,
+    is_a:,
+    children:
+  },
+  'Block': {
+    part_of_speech: 'noun',
+    definition: 'Solid piece.',
+    example: 'Wood block.',
+    level: 4,
+    is_a:,
+    children:
+  },
+  'Doll': {
+    part_of_speech: 'noun',
+    definition: 'Toy, like person.',
+    example: 'Play with doll.',
+    level: 4,
+    is_a:,
+    children:
+  },
+  'Game': {
+    part_of_speech: 'noun',
+    definition: 'Activity with rule, for fun.',
+    example: 'Play game.',
+    level: 4,
+    is_a:,
+    children:
+  },
+  'Kite': {
+    part_of_speech: 'noun',
+    definition: 'Fly in air.',
+    example: 'Fly kite.',
+    level: 4,
+    is_a:,
+    children:
+  },
+  'Puzzle': {
+    part_of_speech: 'noun',
+    definition: 'Game, fit piece-s together.',
+    example: 'Solve puzzle.',
+    level: 4,
+    is_a:,
+    children:
+  },
+  'Document': {
+    definition: 'Written or printed information.',
+    level: 3,
+    is_a: ['Object'],
+    children:
+  },
+  'Money': {
+    definition: 'Use for buy.',
+    level: 3,
+    is_a: ['Object'],
+    children:
+  },
+  'Food': {
+    definition: 'Things you eat.',
+    level: 3,
+    is_a: ['Object'],
+    children:
+  },
+  'Apple': {
+    part_of_speech: 'noun',
+    definition: 'Round fruit, red or green.',
+    example: 'Eat apple.',
+    level: 4,
+    is_a: ['Food', 'Fruit'],
+    children:
+  },
+  'Baked Good': {
+    part_of_speech: 'noun',
+    definition: 'Food cook in oven, like bread, cake.',
+    example: 'Eat baked good-s.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Banana': {
+    part_of_speech: 'noun',
+    definition: 'Long fruit, yellow.',
+    example: 'Peel banana.',
+    level: 4,
+    is_a: ['Food', 'Fruit'],
+    children:
+  },
+  'Bread': {
+    part_of_speech: 'noun',
+    definition: 'Food from flour, water.',
+    example: 'Eat bread.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Butter': {
+    part_of_speech: 'noun',
+    definition: 'Soft food from milk.',
+    example: 'Spread butter.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Cake': {
+    part_of_speech: 'noun',
+    definition: 'Sweet baked food.',
+    example: 'Eat cake.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Candy': {
+    part_of_speech: 'noun',
+    definition: 'Sweet food.',
+    example: 'Eat candy.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Carrot': {
+    part_of_speech: 'noun',
+    definition: 'Orange root vegetable.',
+    example: 'Eat carrot.',
+    level: 4,
+    is_a: ['Food', 'Vegetable'],
+    children:
+  },
+  'Cheese': {
+    part_of_speech: 'noun',
+    definition: 'Food from milk.',
+    example: 'Eat cheese.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Chicken': {
+    part_of_speech: 'noun',
+    definition: 'Bird, eat as food.',
+    example: 'Eat chicken.',
+    level: 4,
+    is_a: ['Food', 'Animal'],
+    children:
+  },
+  'Chocolate': {
+    part_of_speech: 'noun',
+    definition: 'Sweet brown food.',
+    example: 'Eat chocolate.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Cookie': {
+    part_of_speech: 'noun',
+    definition: 'Small flat sweet cake.',
+    example: 'Eat cookie.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Corn': {
+    part_of_speech: 'noun',
+    definition: 'Yellow grain.',
+    example: 'Eat corn.',
+    level: 4,
+    is_a: ['Food', 'Plant'],
+    children:
+  },
+  'Cream': {
+    part_of_speech: 'noun',
+    definition: 'Thick part of milk.',
+    example: 'Add cream.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Dairy': {
+    part_of_speech: 'noun',
+    definition: 'Food from milk.',
+    example: 'Cheese be dairy.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Dinner': {
+    part_of_speech: 'noun',
+    definition: 'Big meal, evening.',
+    example: 'Eat dinner.',
+    level: 4,
+    is_a: ['Food', 'Meal'],
+    children:
+  },
+  'Drink': {
+    part_of_speech: 'noun',
+    definition: 'Liquid for swallow.',
+    example: 'Drink water.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Egg': {
+    part_of_speech: 'noun',
+    definition: 'Round thing from bird.',
+    example: 'Eat egg.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Fish': {
+    part_of_speech: 'noun',
+    definition: 'Animal live in water.',
+    example: 'Eat fish.',
+    level: 4,
+    is_a: ['Food', 'Animal'],
+    children:
+  },
+  'Flour': {
+    part_of_speech: 'noun',
+    definition: 'Powder from grain, make bread.',
+    example: 'Bake with flour.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Fruit': {
+    part_of_speech: 'noun',
+    definition: 'Sweet food from plant.',
+    example: 'Eat fruit.',
+    level: 4,
+    is_a: ['Food', 'Plant'],
+    children:
+  },
+  'Garlic': {
+    part_of_speech: 'noun',
+    definition: 'Plant, strong taste.',
+    example: 'Add garlic.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Grain': {
+    part_of_speech: 'noun',
+    definition: 'Seed of plant, like wheat, rice.',
+    example: 'Eat grain.',
+    level: 4,
+    is_a: ['Food', 'Plant'],
+    children:
+  },
+  'Honey': {
+    part_of_speech: 'noun',
+    definition: 'Sweet food from bee.',
+    example: 'Eat honey.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Ice Cream': {
+    part_of_speech: 'noun',
+    definition: 'Cold sweet food.',
+    example: 'Eat ice cream.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Juice': {
+    part_of_speech: 'noun',
+    definition: 'Liquid from fruit.',
+    example: 'Drink juice.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Lamb': {
+    part_of_speech: 'noun',
+    definition: 'Young sheep, for food.',
+    example: 'Eat lamb.',
+    level: 4,
+    is_a: ['Food', 'Animal'],
+    children:
+  },
+  'Lunch': {
+    part_of_speech: 'noun',
+    definition: 'Meal, middle of day.',
+    example: 'Eat lunch.',
+    level: 4,
+    is_a: ['Food', 'Meal'],
+    children:
+  },
+  'Meal': {
+    part_of_speech: 'noun',
+    definition: 'Food eat at one time.',
+    example: 'Eat meal.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Meat': {
+    part_of_speech: 'noun',
+    definition: 'Animal flesh, food.',
+    example: 'Eat meat.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Milk': {
+    part_of_speech: 'noun',
+    definition: 'White liquid from cow.',
+    example: 'Drink milk.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  }, 'Nut': {
+    part_of_speech: 'noun',
+    definition: 'Hard shell fruit.',
+    example: 'Eat nut-s.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Oat': {
+    part_of_speech: 'noun',
+    definition: 'Type of grain.',
+    example: 'Eat oat-s.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Oil': {
+    part_of_speech: 'noun',
+    definition: 'Liquid fat.',
+    example: 'Cook with oil.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Onion': {
+    part_of_speech: 'noun',
+    definition: 'Round vegetable, strong smell.',
+    example: 'Cut onion.',
+    level: 4,
+    is_a: ['Food', 'Vegetable'],
+    children:
+  },
+  'Pasta': {
+    part_of_speech: 'noun',
+    definition: 'Food from flour, water, shape.',
+    example: 'Eat pasta.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Pepper': {
+    part_of_speech: 'noun',
+    definition: 'Spice, hot or sweet.',
+    example: 'Add pepper.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Pie': {
+    part_of_speech: 'noun',
+    definition: 'Baked food with crust.',
+    example: 'Eat pie.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Pork': {
+    part_of_speech: 'noun',
+    definition: 'Meat from pig.',
+    example: 'Eat pork.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Potato': {
+    part_of_speech: 'noun',
+    definition: 'Round vegetable grow in ground.',
+    example: 'Eat potato.',
+    level: 4,
+    is_a: ['Food', 'Vegetable'],
+    children:
+  },
+  'Rice': {
+    part_of_speech: 'noun',
+    definition: 'Small grain, white or brown.',
+    example: 'Eat rice.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Salad': {
+    part_of_speech: 'noun',
+    definition: 'Mix of raw vegetable.',
+    example: 'Eat salad.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Salt': {
+    part_of_speech: 'noun',
+    definition: 'White crystal, add taste.',
+    example: 'Add salt.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Sandwich': {
+    part_of_speech: 'noun',
+    definition: 'Two piece bread with food between.',
+    example: 'Eat sandwich.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Sauce': {
+    part_of_speech: 'noun',
+    definition: 'Liquid food, add taste.',
+    example: 'Add sauce.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Snack': {
+    part_of_speech: 'noun',
+    definition: 'Small food between meal-s.',
+    example: 'Eat snack.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Soup': {
+    part_of_speech: 'noun',
+    definition: 'Liquid food.',
+    example: 'Eat soup.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Spice': {
+    part_of_speech: 'noun',
+    definition: 'Plant part, add taste.',
+    example: 'Add spice.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Sugar': {
+    part_of_speech: 'noun',
+    definition: 'Sweet white crystal.',
+    example: 'Add sugar.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Tea': {
+    part_of_speech: 'noun',
+    definition: 'Drink from leaf.',
+    example: 'Drink tea.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Tomato': {
+    part_of_speech: 'noun',
+    definition: 'Red fruit, use as vegetable.',
+    example: 'Eat tomato.',
+    level: 4,
+    is_a: ['Food', 'Fruit', 'Vegetable'],
+    children:
+  },
+  'Vegetable': {
+    part_of_speech: 'noun',
+    definition: 'Plant eat as food.',
+    example: 'Eat vegetable-s.',
+    level: 4,
+    is_a: ['Food', 'Plant'],
+    children:
+  },
+  'Wheat': {
+    part_of_speech: 'noun',
+    definition: 'Grain for bread, flour.',
+    example: 'Grow wheat.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Yogurt': {
+    part_of_speech: 'noun',
+    definition: 'Food from milk, thick.',
+    example: 'Eat yogurt.',
+    level: 4,
+    is_a: ['Food'],
+    children:
+  },
+  'Appliance': {
+    definition: 'Machine, help in house.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Blender': {
+    part_of_speech: 'noun',
+    definition: 'A kitchen appliance used to mix, emulsify, purée or liquefy food and other substances.',
+    example: 'Use a blender to make a smoothie.',
+    level: 4,
+    is_a: ['Appliance'],
+    children:
+  },
+  'Dishwasher': {
+    part_of_speech: 'noun',
+    definition: 'A machine for washing dishes automatically.',
+    example: 'Load the dishwasher.',
+    level: 4,
+    is_a: ['Appliance'],
+    children:
+  },
+  'Dryer': {
+    part_of_speech: 'noun',
+    definition: 'A machine or apparatus for drying something, especially clothes or hair.',
+    example: 'The clothes be in the dryer.',
+    level: 4,
+    is_a: ['Appliance'],
+    children:
+  },
+  'Fan': {
+    part_of_speech: 'noun',
+    definition: 'A device with rotating blades that creates a current of air for cooling or ventilation.',
+    example: 'Turn on the fan.',
+    level: 4,
+    is_a: ['Appliance'],
+    children:
+  },
+  'Freezer': {
+    part_of_speech: 'noun',
+    definition: 'A refrigerated cabinet or room for preserving food at very low temperatures.',
+    example: 'Put the ice cream in the freezer.',
+    level: 4,
+    is_a: ['Appliance'],
+    children:
+  },
+  'Heater': {
+    part_of_speech: 'noun',
+    definition: 'A device for warming the air or water.',
+    example: 'Turn on the heater.',
+    level: 4,
+    is_a: ['Appliance'],
+    children:
+  },
+  'Clothing-iron': {
+    part_of_speech: 'noun',
+    definition: 'A handheld implement with a flat, heated base, used to smooth clothes.',
+    example: 'Use an iron on the shirt.',
+    level: 4,
+    is_a: ['Appliance'],
+    children:
+  },
+  'Microwave': {
+    part_of_speech: 'noun',
+    definition: 'An oven that heats and cooks food by exposing it to electromagnetic radiation in the microwave frequency range.',
+    example: 'Heat the food in the microwave.',
+    level: 4,
+    is_a: ['Appliance'],
+    children:
+  },
+  'Oven': {
+    part_of_speech: 'noun',
+    definition: 'An enclosed compartment, as in a cooker, for heating and cooking food.',
+    example: 'Bake a cake in the oven.',
+    level: 4,
+    is_a:,
+    children:
+  },
+  'Refrigerator': {
+    part_of_speech: 'noun',
+    definition: 'An appliance or compartment which is artificially kept cool and used to store food and drink.',
+    example: 'Put the milk in the refrigerator.',
+    level: 4,
+    is_a: ['Appliance'],
+    children:
+  },
+  'Stove': {
+    part_of_speech: 'noun',
+    definition: 'An apparatus for cooking or heating that operates by burning fuel or using electricity.',
+    example: 'Cook on the stove.',
+    level: 4,
+    is_a: ['Appliance'],
+    children:
+  },
+  'Toaster': {
+    part_of_speech: 'noun',
+    definition: 'An electrical device for making toast.',
+    example: 'The toast popped up from the toaster.',
+    level: 4,
+    is_a: ['Appliance'],
+    children:
+  },
+  'Vacuum': {
+    part_of_speech: 'noun',
+    definition: 'An electrical appliance for cleaning carpets, floors, etc., by suction.',
+    example: 'Use the vacuum to clean the rug.',
+    level: 4,
+    is_a: ['Appliance'],
+    children:
+  },
+  'Washer': {
+    part_of_speech: 'noun',
+    definition: 'A machine for washing clothes.',
+    example: 'Put the clothes in the washer.',
+    level: 4,
+    is_a: ['Appliance'],
+    children:
+  },
+  // --- Placeholder Categories under 'Thing' ---
+  'Substance': { level: 2, is_a:, children: },
+  'Information': { level: 2, is_a:, children: },
+  'Sound': { level: 2, is_a:, children: },
+  'Light': { level: 2, is_a:, children: },
+  'Energy': { level: 2, is_a:, children: },
+  'Measurement': { level: 2, is_a:, children: },
+  'Text': { level: 2, is_a:, children: },
+  'Technology': { level: 2, is_a:, children: },
+  'Property': { level: 2, is_a:, children: },
+  'Signal': { level: 2, is_a:, children: },
+  'Proof': { level: 2, is_a:, children: },
+  'Mail': { level: 2, is_a:, children: },
+  'Representation': { level: 2, is_a:, children: },
+  'Publication': { level: 2, is_a:, children: },
+  'Recording': { level: 2, is_a:, children: },
+  'Medicine': { level: 2, is_a:, children: },
+  'Resource': { level: 2, is_a:, children: },
+  'Waste': { level: 2, is_a:, children: },
+  'Body Fluid': { level: 2, is_a:, children: },
+  'Element': { level: 2, is_a:, children: },
+  'Molecule': { level: 2, is_a:, children: },
 }

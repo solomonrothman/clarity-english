@@ -1,4 +1,3 @@
-// --- Place Lexicon: Part 1 of 5 (Place and Geographic Feature A-L) ---
 const lexicon = {
   'Place': {
     definition: 'Where thing be.',
@@ -670,6 +669,905 @@ const lexicon = {
     part_of_speech: 'noun',
     definition: 'A small simple or crude house or shelter.',
     example: 'A wood hut.',
+    level: 3,
+    is_a:,
+    children:
+  },
+    const lexicon = {
+  'Laboratory': {
+    part_of_speech: 'noun',
+    definition: 'A room or building equipped for scientific experiment-s, research, or teach-ing, or for the manufacture of drug-s or chemical-s.',
+    example: 'A science laboratory.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Library': {
+    part_of_speech: 'noun',
+    definition: 'A building or room contain-ing collection-s of book-s, periodical-s, and sometimes film-s and recorded music for use or borrow-ing by the public or the member s of an institution.',
+    example: 'Study at the library.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Lighthouse': {
+    part_of_speech: 'noun',
+    definition: 'A tower or other structure contain-ing a beacon light to warn or guide ship-s at sea.',
+    example: 'A lighthouse on the coast.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Mansion': {
+    part_of_speech: 'noun',
+    definition: 'A large impressive house.',
+    example: 'A rich person\'s mansion.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Mine': {
+    part_of_speech: 'noun',
+    definition: 'An excavation in the earth for extract-ing coal or other mineral-s.',
+    example: 'A coal mine.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Monastery': {
+    part_of_speech: 'noun',
+    definition: 'A building or buildings occupied by a community of monk-s live-ing under religious vow-s.',
+    example: 'A quiet monastery.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Monument': {
+    part_of_speech: 'noun',
+    definition: 'Building, statue, remember person, event.',
+    example: 'Visit monument.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Museum': {
+    part_of_speech: 'noun',
+    definition: 'A building in which object-s of historical, scientific, artistic, or cultural interest are stored and exhibited.',
+    example: 'A history museum.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Observatory': {
+    part_of_speech: 'noun',
+    definition: 'A room or building housing an astronomical telescope or other scientific equipment for the study of natural phenomena.',
+    example: 'A space observatory.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Office': {
+    part_of_speech: 'noun',
+    definition: 'A room, set of room-s, or building used as a place for commercial, professional, or bureaucratic work.',
+    example: 'Work in an office.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Palace': {
+    part_of_speech: 'noun',
+    definition: 'The official residence of a sovereign, president, archbishop, or bishop.',
+    example: 'The queen\'s palace.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Pier': {
+    part_of_speech: 'noun',
+    definition: 'A raised structure, including bridge support-s and land-ing stages, typically built upon pil-s or pillar-s, extend-ing from land out over water, used as a land-ing place for ship-s, for embark-ing and disembark-ing, or as a recreational facility.',
+    example: 'Fish from the pier.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Pipeline': {
+    part_of_speech: 'noun',
+    definition: 'A long pipe, typically underground, for convey-ing oil, gas, etc., over long distance-s.',
+    example: 'An oil pipeline.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Platform': {
+    part_of_speech: 'noun',
+    definition: 'High, flat place.',
+    example: 'Train platform.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Power-plant': {
+    part_of_speech: 'noun',
+    definition: 'An installation where electrical power is generated for distribution.',
+    example: 'A nuclear power-plant.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Prison': {
+    part_of_speech: 'noun',
+    definition: 'A building in which people are legally held as a punishment for a crime they have committed or while await-ing trial.',
+    example: 'Go to prison.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Pyramid': {
+    part_of_speech: 'noun',
+    definition: 'A monumental structure with a square or triangular base and slop-ing side-s that meet in a point at the top, especially one built of stone as a royal tomb in ancient Egypt.',
+    example: 'The Great Pyramid.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Railroad': {
+    part_of_speech: 'noun',
+    definition: 'A track or set of tracks made of steel rails along which passenger and freight trains run.',
+    example: 'Work on the railroad.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Ranch': {
+    part_of_speech: 'noun',
+    definition: 'A large farm, especially in North America or Australia, where cattle or other animal-s are bred and reared.',
+    example: 'A cattle ranch.',
+    level: 3,
+    is_a:,
+    children:
+  },
+     'Road': {
+    part_of_speech: 'noun',
+    definition: 'Way for car.',
+    example: 'Drive on road.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Runway': {
+    part_of_speech: 'noun',
+    definition: 'A strip of hard ground along which aircraft take off and land.',
+    example: 'The plane be on the runway.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'School': {
+    part_of_speech: 'noun',
+    definition: 'An institution for educating children.',
+    example: 'Go to school.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Sewer': {
+    part_of_speech: 'noun',
+    definition: 'An underground conduit for carry-ing off drainage water and waste matter.',
+    example: 'A city sewer.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Shed': {
+    part_of_speech: 'noun',
+    definition: 'A simple roofed structure, typically of wood or metal, used as a storage space, a shelter for animal-s, or a workshop.',
+    example: 'A garden shed.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Shop': {
+    part_of_speech: 'noun',
+    definition: 'A building or part of a building where good-s or service-s are sold; a store.',
+    example: 'Go to the shop.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Skyscraper': {
+    part_of_speech: 'noun',
+    definition: 'A very tall building of many stories.',
+    example: 'A city skyscraper.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Stadium': {
+    part_of_speech: 'noun',
+    definition: 'A place or venue for outdoor sport-s or other event-s, with tier-s of seat-s for spectator-s.',
+    example: 'A football stadium.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Station': {
+    part_of_speech: 'noun',
+    definition: 'A place where passenger-s get on and off train-s or bus-es.',
+    example: 'A train station.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Store': {
+    part_of_speech: 'noun',
+    definition: 'A place where thing-s are sold.',
+    example: 'A grocery store.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Street': {
+    part_of_speech: 'noun',
+    definition: 'Road in city, town.',
+    example: 'Walk on street.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Subway': {
+    part_of_speech: 'noun',
+    definition: 'Train under ground.',
+    example: 'Ride subway.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Synagogue': {
+    part_of_speech: 'noun',
+    definition: 'The building where a Jewish assembly or congregation meet-s for religious worship and instruction.',
+    example: 'Go to the synagogue.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Temple': {
+    part_of_speech: 'noun',
+    definition: 'A building devoted to the worship, or regarded as the dwell-ing place, of a god or god-s or other object-s of religious reverence.',
+    example: 'An ancient temple.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Terminal': {
+    part_of_speech: 'noun',
+    definition: 'The end of a railway or other transport route, or a station at such a point.',
+    example: 'An airport terminal.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Theater': {
+    part_of_speech: 'noun',
+    definition: 'A building or outdoor area in which play-s and other dramatic performance-s are given.',
+    example: 'Go to the theater.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Tower': {
+    part_of_speech: 'noun',
+    definition: 'Tall building.',
+    example: 'Climb tower.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Track': {
+    part_of_speech: 'noun',
+    definition: 'Line for train.',
+    example: 'Train on track. Also: Path.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Trail': {
+    part_of_speech: 'noun',
+    definition: 'Path in nature.',
+    example: 'Follow trail.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Tunnel': {
+    part_of_speech: 'noun',
+    definition: 'Way under ground, mountain.',
+    example: 'Drive through tunnel.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'University': {
+    part_of_speech: 'noun',
+    definition: 'A high-level educational institution in which student-s study for degree s and academic research is done.',
+    example: 'Go to university.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Wall': {
+    part_of_speech: 'noun',
+    definition: 'Side of room, building.',
+    example: 'Paint wall. Also: Outside barrier.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Warehouse': {
+    part_of_speech: 'noun',
+    definition: 'A large building where raw material-s or manufactured good-s may be stored before their export or distribution for sale.',
+    example: 'A large warehouse.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Well': {
+    part_of_speech: 'noun',
+    definition: 'A shaft sunk into the ground to obtain water, oil, or gas.',
+    example: 'A deep well.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Windmill': {
+    part_of_speech: 'noun',
+    definition: 'A building with sails or vanes that turn in the wind and generate power.',
+    example: 'A Dutch windmill.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Political Division': {
+    definition: 'Areas of land defined by governments.',
+    level: 2,
+    is_a: ['Place'],
+    children:
+  },
+  'Capital': {
+    part_of_speech: 'noun',
+    definition: 'The most important city or town of a country or region, usually its seat of government.',
+    example: 'Paris be the capital of France.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'City': {
+    part_of_speech: 'noun',
+    definition: 'A large town.',
+    example: 'Live in the city.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Country': {
+    part_of_speech: 'noun',
+    definition: 'A nation with its own government, occupying a particular territory.',
+    example: 'Travel to a new country.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'County': {
+    part_of_speech: 'noun',
+    definition: 'A geographical region of a country used for administrative or other purposes.',
+    example: 'Live in this county.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'District': {
+    part_of_speech: 'noun',
+    definition: 'An area of a country or city, especially one regarded as a distinct unit because of its particular character.',
+    example: 'The financial district.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Nation': {
+    part_of_speech: 'noun',
+    definition: 'A large body of people united by common descent, history, culture, or language, inhabiting a particular country or territory.',
+    example: 'A proud nation.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Province': {
+    part_of_speech: 'noun',
+    definition: 'A principal administrative division of certain countries or empires.',
+    example: 'The province of Quebec.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'State-political': {
+    part_of_speech: 'noun',
+    definition: 'A nation or territory considered as an organized political community under one government.',
+    example: 'A sovereign state.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Territory': {
+    part_of_speech: 'noun',
+    definition: 'An area of land under the jurisdiction of a ruler or state.',
+    example: 'A disputed territory.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Town': {
+    part_of_speech: 'noun',
+    definition: 'A built-up area with a name, defined boundaries, and local government, that is larger than a village and generally smaller than a city.',
+    example: 'A small town.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Village': {
+    part_of_speech: 'noun',
+    definition: 'A group of houses and associated buildings, larger than a hamlet and smaller than a town, situated in a rural area.',
+    example: 'A quiet village.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Location': {
+    definition: 'General or specific points and areas.',
+    level: 2,
+    is_a: ['Place'],
+    children:
+  },
+  'Area': {
+    part_of_speech: 'noun',
+    definition: 'A region or part of a town, a country, or the world.',
+    example: 'A rural area.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Border': {
+    part_of_speech: 'noun',
+    definition: 'A line separating two political or geographical areas.',
+    example: 'Cross the border.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Bottom': {
+    part_of_speech: 'noun',
+    definition: 'The lowest point or part.',
+    example: 'The bottom of the sea.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Center': {
+    part_of_speech: 'noun',
+    definition: 'The middle point of a circle or sphere.',
+    example: 'The center of the city.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Corner': {
+    part_of_speech: 'noun',
+    definition: 'A place where two or more sides or edges meet.',
+    example: 'The corner of the street.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Countryside': {
+    part_of_speech: 'noun',
+    definition: 'The land and scenery of a rural area.',
+    example: 'A walk in the countryside.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Downtown': {
+    part_of_speech: 'noun',
+    definition: 'The central part of a city.',
+    example: 'Work downtown.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Edge': {
+    part_of_speech: 'noun',
+    definition: 'The outside limit of an object, area, or surface.',
+    example: 'The edge of the cliff.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Entrance': {
+    part_of_speech: 'noun',
+    definition: 'An opening, such as a door, passage, or gate, that allows access to a place.',
+    example: 'The main entrance.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Exit': {
+    part_of_speech: 'noun',
+    definition: 'A way out of a building, room, or passenger vehicle.',
+    example: 'The emergency exit.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Exterior': {
+    part_of_speech: 'noun',
+    definition: 'The outer surface or structure of something.',
+    example: 'The exterior of the house.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Farm': {
+    part_of_speech: 'noun',
+    definition: 'An area of land and its buildings used for growing crops and rearing animals.',
+    example: 'Work on a farm.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Field': {
+    part_of_speech: 'noun',
+    definition: 'An area of open land, especially one planted with crops or pasture.',
+    example: 'A field of wheat.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Front': {
+    part_of_speech: 'noun',
+    definition: 'The side or part of an object that presents itself to view or that is normally seen or used first.',
+    example: 'The front of the building.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Garden': {
+    part_of_speech: 'noun',
+    definition: 'A piece of ground, often near a house, used for growing flowers, fruit, or vegetables.',
+    example: 'A beautiful garden.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Ground': {
+    part_of_speech: 'noun',
+    definition: 'The solid surface of the earth.',
+    example: 'Sit on the ground.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Harbor': {
+    part_of_speech: 'noun',
+    definition: 'A place on the coast where vessels may find shelter.',
+    example: 'A safe harbor.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Headquarters': {
+    part_of_speech: 'noun',
+    definition: 'The premises occupied by a military commander and their staff.',
+    example: 'The company headquarters.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Home': {
+    part_of_speech: 'noun',
+    definition: 'The place where one lives permanently.',
+    example: 'Go home.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Horizon': {
+    part_of_speech: 'noun',
+    definition: 'Line where sky meet-s land, sea.',
+    example: 'Sun set on horizon.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Inside': {
+    part_of_speech: 'noun',
+    definition: 'Inner part.',
+    example: 'Go inside.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Interior': {
+    part_of_speech: 'noun',
+    definition: 'Inside part.',
+    example: 'Interior of car.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Land': {
+    part_of_speech: 'noun',
+    definition: 'Part of earth not water.',
+    example: 'Buy land.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Location-concept': {
+    part_of_speech: 'noun',
+    definition: 'Place.',
+    example: 'What is your location?',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Market': {
+    part_of_speech: 'noun',
+    definition: 'Place for buy, sell thing-s.',
+    example: 'Go to market.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Neighborhood': {
+    part_of_speech: 'noun',
+    definition: 'Area in city, town.',
+    example: 'Live in friendly neighborhood.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Outside': {
+    part_of_speech: 'noun',
+    definition: 'Not in.',
+    example: 'Play outside.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Park': {
+    part_of_speech: 'noun',
+    definition: 'Land for people to enjoy.',
+    example: 'Walk in park.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Path': {
+    part_of_speech: 'noun',
+    definition: 'Way to walk.',
+    example: 'Follow path.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Peak': {
+    part_of_speech: 'noun',
+    definition: 'Top of mountain.',
+    example: 'Reach peak.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Place-concept': {
+    part_of_speech: 'noun',
+    definition: 'Location.',
+    example: 'Find a place.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Port': {
+    part_of_speech: 'noun',
+    definition: 'Town with harbor.',
+    example: 'Ship leave-s port.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Position': {
+    part_of_speech: 'noun',
+    definition: 'Place where something is.',
+    example: 'Change position.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Region': {
+    part_of_speech: 'noun',
+    definition: 'Area.',
+    example: 'Hot region.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Room': {
+    part_of_speech: 'noun',
+    definition: 'Part of building with wall-s.',
+    example: 'Stay in room.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Route': {
+    part_of_speech: 'noun',
+    definition: 'Way from one place to other.',
+    example: 'Plan route.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Shore': {
+    part_of_speech: 'noun',
+    definition: 'Land at edge of sea, lake.',
+    example: 'Walk on shore.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Side': {
+    part_of_speech: 'noun',
+    definition: 'Position left or right.',
+    example: 'Left side of road.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Site': {
+    part_of_speech: 'noun',
+    definition: 'Place for event, building.',
+    example: 'Construction site.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Space': {
+    part_of_speech: 'noun',
+    definition: 'Empty area.',
+    example: 'Need more space. Also: Outside earth.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Spot': {
+    part_of_speech: 'noun',
+    definition: 'Particular place.',
+    example: 'Find good spot.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Square': {
+    part_of_speech: 'noun',
+    definition: 'Open area in town.',
+    example: 'Meet in town square.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Summit': {
+    part_of_speech: 'noun',
+    definition: 'Top of mountain.',
+    example: 'Climb to summit.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Surface': {
+    part_of_speech: 'noun',
+    definition: 'Top layer.',
+    example: 'Surface of water.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Surroundings': {
+    part_of_speech: 'noun',
+    definition: 'Area around.',
+    example: 'Beautiful surroundings.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Top': {
+    part_of_speech: 'noun',
+    definition: 'Highest part.',
+    example: 'Top of hill.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Venue': {
+    part_of_speech: 'noun',
+    definition: 'Place for event.',
+    example: 'Concert venue.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Wilderness': {
+    part_of_speech: 'noun',
+    definition: 'Land with no people.',
+    example: 'Explore wilderness.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'World': {
+    part_of_speech: 'noun',
+    definition: 'The earth.',
+    example: 'Travel the world.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Yard': {
+    part_of_speech: 'noun',
+    definition: 'Land around house.',
+    example: 'Play in yard.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Zone': {
+    part_of_speech: 'noun',
+    definition: 'Area for specific purpose.',
+    example: 'War zone.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'Direction': {
+    definition: 'The course along which someone or something moves.',
+    level: 2,
+    is_a: ['Place'],
+    children:
+  },
+  'East': {
+    part_of_speech: 'noun',
+    definition: 'Direction where sun rise-s.',
+    example: 'Travel east.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'North': {
+    part_of_speech: 'noun',
+    definition: 'Direction opposite south.',
+    example: 'Go north.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'South': {
+    part_of_speech: 'noun',
+    definition: 'Direction opposite north.',
+    example: 'Travel south.',
+    level: 3,
+    is_a:,
+    children:
+  },
+  'West': {
+    part_of_speech: 'noun',
+    definition: 'Direction where sun set-s.',
+    example: 'Travel west.',
     level: 3,
     is_a:,
     children:
